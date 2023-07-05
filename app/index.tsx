@@ -71,7 +71,7 @@ export default function WelcomeScreen() {
             </TouchableOpacity>
           </View>
         </View>
-        <View style={{ position: "absolute", zIndex: 1, opacity: langPick ? 1 : 0, alignItems: "center", justifyContent: "flex-end", borderWidth: 1, height: "100%", width: "100%" }}>
+        <View style={{ position: "absolute", zIndex: 1, display: "none", alignItems: "center", justifyContent: "flex-end", borderWidth: 1, height: "100%", width: "100%" }}>
           <View>
             <LanguagePicker
                 initialIndex={1}

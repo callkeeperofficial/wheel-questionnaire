@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: "space-around",
-        paddingHorizontal: 50,
+        paddingHorizontal: 25,
         paddingVertical: 50,
         // borderRadius: 20,
     },
