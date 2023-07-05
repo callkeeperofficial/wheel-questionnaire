@@ -25,5 +25,5 @@ export const questionImages = [
     require("../../assets/images/questions/webp/23.webp"),
 ];
 
-export const appLogo = require("../../assets/images/questions/png/app-logo.png");
-export const megaCreator = require("../../assets/images/questions/png/mega-creator.png");
+export const appLogo = require("../../assets/images/questions/webp/app-logo.webp");
+export const megaCreator = require("../../assets/images/questions/webp/mega-creator.webp");

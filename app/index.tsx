@@ -4,23 +4,24 @@ import { useRouter } from "expo-router";
 import { megaCreator } from "../components/utils/ImageUtility";
 import { goToTest, openPrivacy } from "../components/utils/StaticFunctions";
 import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
+import {i18n} from "../components/molecules/i18n";
 
 
 export default function WelcomeScreen() {
   const router = useRouter();
   const imageHeight = Dimensions.get('window').width - 100;
-
+  console.log("WelcomeScreen", imageHeight);
   return (
       <ContainerTemplate>
           <View style={{width: "100%" }}>
             <Image style={[styles.image, { height: imageHeight }]} source={megaCreator} resizeMode={"contain"}/>
           </View>
-          <Text style={styles.title}>Добро пожаловать!</Text>
-          <Text style={styles.description}>Готовы узнать больше о себе и своих потребностях? Наш тест - это великолепный инструмент для глубокого погружения в свои жизненные области и для понимания, какие из них требуют вашего внимания. Это поможет вам достичь гармонии и баланса в жизни. Не упустите эту возможность узнать себя лучше - начните тест прямо сейчас!</Text>
+          <Text style={styles.title}>{i18n.t("welcome")}</Text>
+          <Text style={styles.description}>{i18n.t("welcomeDescription")}</Text>
           <View style={styles.takeTestButton}>
             <TouchableOpacity onPress={goToTest.bind(null, router)}>
               <View style={styles.button}>
-                <Text style={styles.buttonText}>Пройти тест</Text>
+                <Text style={styles.buttonText}>{i18n.t("takeTest")}</Text>
               </View>
             </TouchableOpacity>
           </View>
@@ -28,7 +29,7 @@ export default function WelcomeScreen() {
           <View><Text>Ru</Text></View>
           <View>
             <TouchableOpacity onPress={openPrivacy}>
-              <Text>Политика конфединциальности</Text>
+              <Text>{i18n.t("privacyPolicy")}</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -53,6 +54,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: "100%",
+    maxHeight: 400
   },
   button: {
     backgroundColor: "#206CEB",

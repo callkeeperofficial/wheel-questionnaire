@@ -19,7 +19,7 @@ export const QuestionnaireButton = (props: QuestionnaireButtonProps) => {
     return (
         <View flex style={[styles.buttonContainer, style]}>
             <TouchableOpacity
-                center row paddingV-20 paddingH-20
+                center row paddingV-10 paddingH-15
                 onPress={onPress}
                 style={[styles.buttonTouchable, {borderWidth: borderWidth ? 1 : 0}]}
             >

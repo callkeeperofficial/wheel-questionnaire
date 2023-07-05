@@ -66,7 +66,7 @@ export default function ModalScreen() {
 
 const styles = StyleSheet.create({
   image: {
-    height: 280,
+    height: 250,
   },
   title: {
     fontSize: 20,

@@ -28,14 +28,14 @@ const styles = StyleSheet.create({
         width: "100%",
         maxWidth: 500,
         backgroundColor: "white",
-        borderRadius: 20,
+        // borderRadius: 20,
     },
     innerContainer: {
         flex: 1,
         alignItems: 'center',
         justifyContent: "space-around",
         paddingHorizontal: 50,
-        paddingBottom: 50,
-        borderRadius: 20,
+        paddingVertical: 50,
+        // borderRadius: 20,
     },
 });
