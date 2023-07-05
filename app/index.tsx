@@ -1,16 +1,49 @@
-import {StyleSheet, TouchableOpacity, Image, Platform, Dimensions} from 'react-native';
+import {StyleSheet, TouchableOpacity, Image, Platform, Dimensions, FlatList} from 'react-native';
 import { Text, View } from '../components/Themed';
 import { useRouter } from "expo-router";
 import { megaCreator } from "../components/utils/ImageUtility";
 import { goToTest, openPrivacy } from "../components/utils/StaticFunctions";
 import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
 import {i18n} from "../components/molecules/i18n";
+import wheelQuestions from "../assets/data/wheel-questions.json"
+import LanguagePicker, { ILanguagePicker } from "react-native-language-select";
+import {useState} from "react";
 
+
+const data: ILanguagePicker[] = [
+  {
+    title: "English",
+    imageSource: require("react-native-language-select/lib/local-assets/america.png"),
+    language: "en",
+  },
+  {
+    title: "Italian",
+    imageSource: require("react-native-language-select/lib/local-assets/italy.png"),
+  },
+  {
+    title: "German",
+    imageSource: require("react-native-language-select/lib/local-assets/germany.png"),
+  },
+  {
+    title: "Turkish",
+    imageSource: require("react-native-language-select/lib/local-assets/turkey.png"),
+    language: "tr-TR",
+  },
+  {
+    title: "Swedish",
+    imageSource: require("react-native-language-select/lib/local-assets/sweden.png"),
+  },
+  {
+    title: "Japanese",
+    imageSource: require("react-native-language-select/lib/local-assets/japan.png"),
+  },
+];
 
 export default function WelcomeScreen() {
+  const [langPick, setLangPick] = useState(false);
   const router = useRouter();
   const imageHeight = Dimensions.get('window').width - 100;
-  console.log("WelcomeScreen", imageHeight);
+
   return (
       <ContainerTemplate>
           <View style={{width: "100%" }}>
@@ -26,11 +59,27 @@ export default function WelcomeScreen() {
             </TouchableOpacity>
           </View>
         <View style={styles.footer}>
-          <View><Text>Ru</Text></View>
+          <TouchableOpacity>
+            <View style={{ flexDirection: "row", alignItems: "center" }}>
+              <Image style={{width: 24, height: 24}} source={require("react-native-language-select/lib/local-assets/sweden.png")}/>
+              <Text style={{ paddingLeft: 10}}>Jr</Text>
+            </View>
+          </TouchableOpacity>
           <View>
             <TouchableOpacity onPress={openPrivacy}>
               <Text>{i18n.t("privacyPolicy")}</Text>
             </TouchableOpacity>
+          </View>
+        </View>
+        <View style={{ position: "absolute", zIndex: 1, opacity: langPick ? 1 : 0, alignItems: "center", justifyContent: "flex-end", borderWidth: 1, height: "100%", width: "100%" }}>
+          <View>
+            <LanguagePicker
+                initialIndex={1}
+                data={data}
+                onSelect={(selectedItem: ILanguagePicker) => {
+                  console.log(selectedItem);
+                }}
+            />
           </View>
         </View>
       </ContainerTemplate>

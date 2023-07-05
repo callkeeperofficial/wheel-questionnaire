@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { Image, StyleSheet } from 'react-native';
 import { View } from 'react-native-ui-lib';
 import { AnsweringTheQuestions } from '../components/organisms/AnsweringTheQuestions';
-import wheelQuestions from "../assets/data/wheel-questions.json"
+import wheelQuestions from "../assets/data/wheel-questions.json";
 import { getLocales } from "expo-localization";
 import { I18n } from "i18n-js";
 import { GlobalContext } from "../components/contexts/GlobalContext";
