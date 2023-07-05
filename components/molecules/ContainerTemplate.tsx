@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: "space-around",
         paddingHorizontal: 25,
-        paddingVertical: 50,
+        paddingVertical: 20,
         // borderRadius: 20,
     },
 });
