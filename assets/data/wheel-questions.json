@@ -1,0 +1,4554 @@
+{
+	"ru": {
+		"questions": [
+			{
+				"key": 0,
+				"question": "Вы занимаетесь спортом (фитнес, плавание, танцы, йога и т.д.)?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Обязательно, регулярно",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Стараюсь, хотя бы 1-2 раза в неделю",
+						"single": true
+					},
+					{ "key": 2, "answer": "Очень редко", "single": true },
+					{
+						"key": 3,
+						"answer": "Не занимаюсь спортом",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 1,
+				"question": "Оцените свой рацион питания.",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Здоровый и сбалансированный",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Чаще здоровый, но не всегда получается",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Преобладает вредная пища в рационе питания",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Я не обращаю внимания на свой рацион питания",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 2,
+				"question": "Как часто Вы проходите медицинские осмотры?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Регулярно, каждый год",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Раз в несколько лет",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Только при наличии проблем со здоровьем",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Не помню, когда проходил последний раз",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 3,
+				"question": "Как Вы оцениваете свое финансовое состояние?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Отличное, у меня есть сбережения и инвестиции",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "У меня стабильный доход, но нет накоплений",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Среднее, живу от зарплаты до зарплаты",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Нет постоянного дохода, не хватает денег на основные нужды",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 4,
+				"question": "Как часто Вы составляете бюджет и следите за своими расходами?",
+				"category": 2,
+				"answers": [
+					{ "key": 0, "answer": "Ежемесячно", "single": true },
+					{
+						"key": 1,
+						"answer": "Раз в несколько месяцев",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Только в случае финансовых проблем",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Никогда, я не планирую свой бюджет",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 5,
+				"question": "У Вас есть финансовые цели и планы на будущее?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Да, долгосрочный план по достижению фин стабильности",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Задумываюсь, но не знаю, как реализовать свои планы",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Возможно, но я не уделяю этому много времени",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Нет, я не задумываюсь о своих финансовых планах",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 6,
+				"question": "Насколько Вы довольны своей текущей работой?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Очень доволен и получаю удовольствие от нее",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Доволен, но есть к чему стремиться",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Я недоволен своей работой, но нет альтернативы",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Недоволен, хотел бы найти другую работу/не работаю",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 7,
+				"question": "Как часто Вы прокачиваете свои профессиональные навыки?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Регулярно, я постоянно совершенствуюсь",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Иногда, когда появляется возможность",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Редко, только если это необходимо для работы",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Практически никогда",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 8,
+				"question": "Как Вы оцениваете свои карьерные перспективы?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ясные и позитивные, я знаю, куда двигаться",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Неплохие, но есть неопределенность",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Средние, есть к чему стремиться",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Неопределенные или отсутствуют",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 9,
+				"question": "Насколько Вы довольны жилищными условиями (местоположение, размер, состояние)?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Очень доволен, мой дом - моя крепость",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Доволен, но есть к чему стремиться",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Нейтральное отношение",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Недоволен, хотел бы улучшить условия",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 10,
+				"question": "Как часто Вы занимаетесь улучшением своего дома/квартиры или домашнего пространства?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Регулярно, я люблю когда дома красиво и уютно",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Иногда, когда появляется возможность",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Редко, только если это необходимо",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Практически никогда",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 11,
+				"question": "Как Вы оцениваете свой уровень комфорта в повседневной жизни (одежда, транспорт, бытовая техника)?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Отличный, у меня есть все для комфортной жизни",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Хороший, но есть куда стремиться",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Средний, требует улучшения",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Низкий, испытываю неудобства",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 12,
+				"question": "Как часто Вы устраиваете себе полноценные отпуска (не менее одной недели)?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Один или более раз в год",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Раз в несколько лет",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Редко, только если есть особая причина",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Не помню, когда был последний отпуск",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 13,
+				"question": "Как часто вы путешествуете?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Часто, я люблю путешествовать",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Иногда, когда есть свободное время и деньги",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Редко, потому что у меня нет времени или денег",
+						"single": true
+					},
+					{ "key": 3, "answer": "Я не путешествую", "single": true }
+				]
+			},
+			{
+				"key": 14,
+				"question": "Как часто Вы уделяете время себе/своему хобби или увлечениям?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Регулярно посвящаю время себе и своим увлечениями",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Несколько раз в неделю, стараюсь не забывать о себе",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Раз в неделю или реже, когда есть возможность",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Практически никогда, у меня нет времени на себя",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 15,
+				"question": "Как вы общаетесь с людьми в повседневной жизни?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Легко и с удовольствием общаюсь с людьми",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Иногда сложно находить общий язык с людьми, но я стараюсь",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Не очень общительный человек, предпочитаю находиться в одиночестве",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Испытываю дискомфорт в общении с людьми",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 16,
+				"question": "Насколько Вы довольны своим социальным окружением (друзья, коллеги, соседи)?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Очень доволен, прекрасное окружение",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "В целом доволен, но есть к чему стремиться",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Нейтральное отношение, это просто люди вокруг меня",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Недоволен, хотел бы улучшить свое окружение",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 17,
+				"question": "Как вы относитесь к своим близким родственникам?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "У меня хорошие отношения с родственниками",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "В целом все хорошо, но есть конфликты",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Есть серьезные проблемы в отношениях с родственниками",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Я не имею близких родственников",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 18,
+				"question": "Как Вы оцениваете свою текущую личную жизнь или отношения с партнером?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Я счастлив в отношениях / Счастлив один",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Хорошие, но есть некоторое недопонимание",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Я не доволен отношениями со своим партнером",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Испытываю проблемы в отношениях / В поиске партнера",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 19,
+				"question": "Как часто Вы уделяете время своему партнеру (или активно занимаетесь поиском партнера, если Вы одиноки)?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ежедневно/ я счастлив один",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Несколько раз в неделю",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Раз в неделю или реже",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Практически никогда",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 20,
+				"question": "Вы обсуждаете важные вопросы и проблемы с вашим партнером (или готовы делать это в будущем)?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Да, мы открыто обсуждаем все вопросы",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Да, но есть темы, которые мы избегаем",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Не всегда, некоторые вопросы остаются нерешенными",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Нет, мы не обсуждаем важные вопросы",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 21,
+				"question": "Как часто Вы занимаетесь самообразованием (читаете книги, слушаете подкасты, смотрите обучающие видео)?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ежедневно или несколько раз в неделю",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Иногда, когда есть свободное время и настроение",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Редко, потому что не интересно или нет времени",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Я не читаю книги или не интересуюсь новыми темами",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 22,
+				"question": "Вы ставите перед собой цели для личностного развития?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Да, у меня есть четкие цели и планы их достижения",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Да, у меня есть цели, но план достижения не совсем четкий",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Вроде есть цели, но я не уверен, что они реалистичны",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Нет, я не задумывался о своих целях саморазвития",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 23,
+				"question": "Как вы проявляете благодарность к окружающим людям?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Всегда выражаю благодарность людям",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Я стараюсь проявлять благодарность",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Я не проявляю благодарность к людям",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Я не знаю, как проявлять благодарность",
+						"single": true
+					}
+				]
+			}
+		]
+	},
+	"en": {
+		"questions": [
+			{
+				"key": 0,
+				"question": "Do you engage in sports (fitness, swimming, dancing, yoga, etc.)?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Definitely, regularly",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "I try, at least 1-2 times a week",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Very rarely",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "I don't do sports",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 1,
+				"question": "Evaluate your diet.",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Healthy and balanced",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Mostly healthy, but not always successful",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Unhealthy food predominates in the diet",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "I don't pay attention to my diet",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 2,
+				"question": "How often do you undergo medical check-ups?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regularly, every year",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Once every few years",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Only when I have health issues",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "I don't remember the last time I had one",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 3,
+				"question": "How do you assess your financial situation?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Excellent, I have savings and investments",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "I have a stable income but no savings",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Average, I live paycheck to paycheck",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No steady income, not enough money for basic needs",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 4,
+				"question": "How often do you create a budget and track your expenses?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Monthly",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Once every few months",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Only in case of financial problems",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Never, I don't plan my budget",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 5,
+				"question": "Do you have financial goals and plans for the future?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Yes, a long-term plan for achieving financial stability",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "I think about it, but don't know how to implement my plans",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Maybe, but I don't spend much time on it",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No, I don't think about my financial plans",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 6,
+				"question": "How satisfied are you with your current job?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Very satisfied and enjoy it",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Satisfied, but there's room for improvement",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "I am dissatisfied with my job, but there are no alternatives",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Dissatisfied, would like to find another job/not working",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 7,
+				"question": "How often do you improve your professional skills?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regularly, I'm constantly improving",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Sometimes, when the opportunity arises",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Rarely, only if it's necessary for work",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Almost never",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 8,
+				"question": "How do you assess your career prospects?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Clear and positive, I know where to go",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Not bad, but there's some uncertainty",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Average, there's room for improvement",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Uncertain or absent",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 9,
+				"question": "How satisfied are you with your housing conditions (location, size, condition)?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Very satisfied, my home is my fortress",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Satisfied, but there's room for improvement",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Neutral attitude",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Dissatisfied, would like to improve conditions",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 10,
+				"question": "How often do you engage in improving your home/apartment or living space?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regularly, I love having a beautiful and cozy home",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Sometimes, when the opportunity arises",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Rarely, only when necessary",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Almost never",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 11,
+				"question": "How do you rate your level of comfort in everyday life (clothing, transportation, household appliances)?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Excellent, I have everything for a comfortable life",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Good, but there's room for improvement",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Average, requires improvement",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Low, experiencing discomfort",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 12,
+				"question": "How often do you have a full-fledged vacation (at least one week)?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Once or more per year",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Once every few years",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Rarely, only if there's a special reason",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "I don't remember the last time I had a vacation",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 13,
+				"question": "How often do you travel?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Often, I love to travel",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Sometimes, when I have free time and money",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Rarely, because I don't have time or money",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "I don't travel",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 14,
+				"question": "How often do you devote time to yourself/your hobbies or interests?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "I regularly dedicate time to myself and my interests",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "A few times a week, I try not to forget about myself",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Once a week or less, when I have the opportunity",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Almost never, I don't have time for myself",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 15,
+				"question": "How do you interact with people in everyday life?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "I easily and enjoyably communicate with people",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Sometimes it's difficult to find common ground with people, but I try",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "I'm not very sociable, prefer to be alone",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "I feel discomfort when communicating with people",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 16,
+				"question": "How satisfied are you with your social environment (friends, colleagues, neighbors)?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Very satisfied, wonderful environment",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Generally satisfied, but there is room for improvement",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Neutral attitude, these are just people around me",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Dissatisfied, would like to improve my environment",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 17,
+				"question": "How do you relate to your close relatives?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "I have good relationships with my relatives",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Overall, everything is fine, but there are conflicts",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "There are serious problems in relationships with relatives",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "I don't have close relatives",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 18,
+				"question": "How do you rate your current personal life or relationship with your partner?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "I am happy in relationships / Happy alone",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Good, but there is some misunderstanding",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "I am not satisfied with my relationship with my partner",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Experiencing problems in relationships / Looking for a partner",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 19,
+				"question": "How often do you spend time with your partner (or actively search for a partner if you are single)?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Every day / I am happy alone",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Several times a week",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Once a week or less",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Almost never",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 20,
+				"question": "Do you discuss important issues and problems with your partner (or are you willing to do so in the future)?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Yes, we openly discuss all issues",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Yes, but there are topics that we avoid",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Not always, some issues remain unresolved",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No, we do not discuss important issues",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 21,
+				"question": "How often do you engage in self-education (reading books, listening to podcasts, watching educational videos)?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Daily or several times a week",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Sometimes, when I have free time and mood",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Rarely, because I'm not interested or don't have time",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "I don't read books or explore new topics",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 22,
+				"question": "Do you set personal development goals for yourself?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Yes, I have clear goals and plans to achieve them",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Yes, I have goals, but the plan to achieve them is not very clear",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "I kind of have goals, but I'm not sure they are realistic",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No, I haven't thought about my personal development goals",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 23,
+				"question": "How do you show gratitude to the people around you?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "I always express gratitude to people",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "I try to show gratitude",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "I don't show gratitude to people",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "I don't know how to show gratitude",
+						"single": true
+					}
+				]
+			}
+		]
+	},
+	"es": {
+		"questions": [
+			{
+				"key": 0,
+				"question": "¿Participas en deportes (ejercicio, natación, baile, yoga, etc.)?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Definitivamente, regularmente",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Lo intento, al menos 1-2 veces a la semana",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Muy raramente",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No hago deportes",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 1,
+				"question": "Evalúa tu dieta.",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Saludable y equilibrada",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Mayormente saludable, pero no siempre exitosa",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Los alimentos poco saludables predominan en la dieta",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No presto atención a mi dieta",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 2,
+				"question": "¿Con qué frecuencia te realizas chequeos médicos?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regularmente, cada año",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Una vez cada varios años",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Solo cuando tengo problemas de salud",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No recuerdo la última vez que tuve uno",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 3,
+				"question": "¿Cómo evalúas tu situación financiera?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Excelente, tengo ahorros e inversiones",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Tengo ingresos estables pero no ahorros",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Promedio, vivo de cheque en cheque",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Sin ingresos fijos, no hay suficiente dinero para las necesidades básicas",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 4,
+				"question": "¿Con qué frecuencia elaboras un presupuesto y haces seguimiento de tus gastos?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Mensualmente",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Una vez cada pocos meses",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Solo en caso de problemas financieros",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Nunca, no planeo mi presupuesto",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 5,
+				"question": "¿Tienes metas financieras y planes para el futuro?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Sí, un plan a largo plazo para lograr la estabilidad financiera",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Lo pienso, pero no sé cómo implementar mis planes",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Tal vez, pero no dedico mucho tiempo a ello",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No, no pienso en mis planes financieros",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 6,
+				"question": "¿Cuán satisfecho estás con tu trabajo actual?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Muy satisfecho y lo disfruto",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Satisfecho, pero hay margen de mejora",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Estoy insatisfecho con mi trabajo, pero no hay alternativas",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Insatisfecho, me gustaría encontrar otro trabajo/no estoy trabajando",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 7,
+				"question": "¿Con qué frecuencia mejoras tus habilidades profesionales?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regularmente, estoy constantemente mejorando",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "A veces, cuando surge la oportunidad",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Raramente, solo si es necesario para el trabajo",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Casi nunca",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 8,
+				"question": "¿Cómo evalúas tus perspectivas de carrera?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Claros y positivos, sé hacia dónde ir",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "No están mal, pero hay cierta incertidumbre",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Promedio, hay margen de mejora",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Inciertas o inexistentes",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 9,
+				"question": "¿Cuán satisfecho estás con tus condiciones de vivienda (ubicación, tamaño, estado)?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Muy satisfecho, mi hogar es mi fortaleza",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Satisfecho, pero hay margen de mejora",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Actitud neutral",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Insatisfecho, me gustaría mejorar las condiciones",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 10,
+				"question": "¿Con qué frecuencia te dedicas a mejorar tu hogar/apartamento o espacio de vida?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regularmente, me encanta tener un hogar hermoso y acogedor",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "A veces, cuando surge la oportunidad",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Raramente, solo cuando es necesario",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Casi nunca",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 11,
+				"question": "¿Cómo calificas tu nivel de comodidad en la vida cotidiana (ropa, transporte, electrodomésticos)?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Excelente, tengo todo para una vida cómoda",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Bueno, pero hay margen de mejora",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Promedio, requiere mejoras",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Bajo, experimentando incomodidad",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 12,
+				"question": "¿Con qué frecuencia tienes unas vacaciones completas (al menos una semana)?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Una vez o más por año",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Una vez cada pocos años",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Raramente, solo si hay una razón especial",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No recuerdo la última vez que tuve vacaciones",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 13,
+				"question": "¿Con qué frecuencia viajas?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "A menudo, me encanta viajar",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "A veces, cuando tengo tiempo libre y dinero",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Raramente, porque no tengo tiempo ni dinero",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No viajo",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 14,
+				"question": "¿Con qué frecuencia dedicas tiempo a ti mismo/a tus pasatiempos o intereses?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Dedico tiempo regularmente a mí mismo y a mis intereses",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Unas cuantas veces a la semana, trato de no olvidarme de mí mismo",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Una vez a la semana o menos, cuando tengo la oportunidad",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Casi nunca, no tengo tiempo para mí mismo",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 15,
+				"question": "¿Cómo interactúas con las personas en la vida cotidiana?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Me comunico fácil y agradablemente con las personas",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "A veces es difícil encontrar un punto en común con las personas, pero lo intento",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "No soy muy sociable, prefiero estar solo",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Siento incomodidad al comunicarme con las personas",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 16,
+				"question": "¿Qué tan satisfecho estás con tu entorno social (amigos, colegas, vecinos)?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Muy satisfecho, un entorno maravilloso",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Generalmente satisfecho, pero hay margen de mejora",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Actitud neutral, son solo personas a mi alrededor",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Insatisfecho, me gustaría mejorar mi entorno",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 17,
+				"question": "¿Cómo te relacionas con tus parientes cercanos?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Tengo buenas relaciones con mis parientes",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "En general, todo está bien, pero hay conflictos",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Hay problemas serios en las relaciones con parientes",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No tengo parientes cercanos",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 18,
+				"question": "¿Cómo calificarías tu vida personal actual o relación con tu pareja?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Estoy feliz en las relaciones / Feliz solo",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Bien, pero hay ciertos malentendidos",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "No estoy satisfecho con mi relación con mi pareja",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Experimentando problemas en las relaciones / Buscando pareja",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 19,
+				"question": "¿Con qué frecuencia pasas tiempo con tu pareja (o buscas activamente una pareja si estás soltero)?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Todos los días / Soy feliz estando solo",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Varias veces a la semana",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Una vez a la semana o menos",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Casi nunca",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 20,
+				"question": "¿Discutes temas importantes y problemas con tu pareja (o estás dispuesto a hacerlo en el futuro)?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Sí, discutimos abiertamente todos los temas",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Sí, pero hay temas que evitamos",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "No siempre, algunos temas quedan sin resolver",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No, no discutimos temas importantes",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 21,
+				"question": "¿Con qué frecuencia te dedicas a la autoeducación (leer libros, escuchar podcasts, ver videos educativos)?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Diariamente o varias veces a la semana",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "A veces, cuando tengo tiempo libre y ánimo",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Raramente, porque no me interesa o no tengo tiempo",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No leo libros ni exploro nuevos temas",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 22,
+				"question": "¿Te estableces metas de desarrollo personal?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Sí, tengo objetivos claros y planes para alcanzarlos",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Sí, tengo objetivos, pero el plan para alcanzarlos no es muy claro",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Tengo algo así como objetivos, pero no estoy seguro de que sean realistas",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No, no he pensado en mis metas de desarrollo personal",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 23,
+				"question": "¿Cómo muestras gratitud a las personas que te rodean?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Siempre expreso gratitud a las personas",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Intento mostrar gratitud",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "No muestro gratitud a las personas",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "No sé cómo mostrar gratitud",
+						"single": true
+					}
+				]
+			}
+		]
+	},
+	"fr": {
+		"questions": [
+			{
+				"key": 0,
+				"question": "Faites-vous du sport (fitness, natation, danse, yoga, etc.) ?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Absolument, régulièrement",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "J'essaie, au moins 1-2 fois par semaine",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Très rarement",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Je ne fais pas de sport",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 1,
+				"question": "Évaluez votre alimentation.",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Saine et équilibrée",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Principalement saine, mais pas toujours réussie",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "La nourriture malsaine prédomine dans le régime",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Je ne fais pas attention à mon alimentation",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 2,
+				"question": "À quelle fréquence passez-vous des examens médicaux ?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Régulièrement, chaque année",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Une fois tous les quelques années",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Uniquement lorsque j'ai des problèmes de santé",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Je ne me souviens pas de la dernière fois que j'en ai passé un",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 3,
+				"question": "Comment évaluez-vous votre situation financière ?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Excellente, j'ai des économies et des investissements",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "J'ai un revenu stable mais pas d'économies",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Moyenne, je vis au jour le jour",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Pas de revenu stable, pas assez d'argent pour les besoins de base",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 4,
+				"question": "À quelle fréquence établissez-vous un budget et suivez-vous vos dépenses ?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Mensuellement",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Une fois tous les quelques mois",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Uniquement en cas de problèmes financiers",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Jamais, je ne planifie pas mon budget",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 5,
+				"question": "Avez-vous des objectifs financiers et des projets pour l'avenir ?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Oui, un plan à long terme pour atteindre la stabilité financière",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "J'y pense, mais je ne sais pas comment mettre en œuvre mes plans",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Peut-être, mais je ne passe pas beaucoup de temps dessus",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Non, je ne pense pas à mes plans financiers",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 6,
+				"question": "Êtes-vous satisfait de votre travail actuel ?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Très satisfait et je l'apprécie",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Satisfait, mais il y a de la marge pour amélioration",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Je suis insatisfait de mon travail, mais il n'y a pas d'alternatives",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Insatisfait, je voudrais trouver un autre travail/ne pas travailler",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 7,
+				"question": "À quelle fréquence améliorez-vous vos compétences professionnelles ?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Régulièrement, je m'améliore constamment",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Parfois, lorsque l'occasion se présente",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Rarement, seulement si c'est nécessaire pour le travail",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Presque jamais",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 8,
+				"question": "Comment évaluez-vous vos perspectives de carrière ?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Claire et positive, je sais où aller",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Pas mal, mais il y a une certaine incertitude",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Moyenne, il y a de la marge pour amélioration",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Incertains ou absents",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 9,
+				"question": "Êtes-vous satisfait de vos conditions de logement (emplacement, taille, état) ?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Très satisfait, ma maison est ma forteresse",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Satisfait, mais il y a de la marge pour amélioration",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Attitude neutre",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Insatisfait, je voudrais améliorer les conditions",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 10,
+				"question": "À quelle fréquence vous occupez-vous d'améliorer votre maison/appartement ou espace de vie ?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Régulièrement, j'aime avoir une maison belle et confortable",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Parfois, lorsque l'occasion se présente",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Rarement, seulement quand c'est nécessaire",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Presque jamais",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 11,
+				"question": "Comment évaluez-vous votre niveau de confort dans la vie quotidienne (vêtements, transports, appareils ménagers) ?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Excellent, j'ai tout pour une vie confortable",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Bon, mais il y a de la marge pour amélioration",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Moyen, nécessite amélioration",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Faible, ressent du malaise",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 12,
+				"question": "Combien de fois par an prenez-vous des vacances complètes (d'au moins une semaine) ?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Une fois ou plus par an",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Une fois tous les quelques années",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Rarement, seulement s'il y a une raison particulière",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Je ne me souviens pas de la dernière fois que j'ai pris des vacances",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 13,
+				"question": "À quelle fréquence voyagez-vous ?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Souvent, j'adore voyager",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Parfois, quand j'ai du temps libre et de l'argent",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Rarement, parce que je n'ai pas le temps ou l'argent",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Je ne voyage pas",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 14,
+				"question": "À quelle fréquence consacrez-vous du temps à vous-même / à vos passe-temps ou centres d'intérêt ?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Je consacre régulièrement du temps à moi-même et à mes centres d'intérêt",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Quelques fois par semaine, j'essaie de ne pas m'oublier",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Une fois par semaine ou moins, quand j'en ai l'occasion",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Presque jamais, je n'ai pas de temps pour moi",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 15,
+				"question": "Comment interagissez-vous avec les gens dans la vie de tous les jours ?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Je communique facilement et agréablement avec les gens",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Parfois, il est difficile de trouver un terrain d'entente avec les gens, mais j'essaie",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Je ne suis pas très sociable, je préfère être seul",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Je ressens un malaise lors de la communication avec les gens",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 16,
+				"question": "Êtes-vous satisfait de votre environnement social (amis, collègues, voisins) ?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Très satisfait, environnement merveilleux",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Globalement satisfait, mais il y a de la place pour l'amélioration",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Attitude neutre, ce ne sont que des personnes autour de moi",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Insatisfait, aimerait améliorer mon environnement",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 17,
+				"question": "Comment vous entendez-vous avec vos proches parents ?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "J'ai de bonnes relations avec mes proches",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Dans l'ensemble, tout va bien, mais il y a des conflits",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Il y a de sérieux problèmes dans les relations avec les proches",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Je n'ai pas de proches parents",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 18,
+				"question": "Comment évaluez-vous votre vie personnelle actuelle ou votre relation avec votre partenaire ?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Je suis heureux en couple / Heureux seul",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Bien, mais il y a quelques malentendus",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Je ne suis pas satisfait de ma relation avec mon partenaire",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Problèmes dans les relations / À la recherche d'un partenaire",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 19,
+				"question": "Combien de fois passez-vous du temps avec votre partenaire (ou cherchez-vous activement un partenaire si vous êtes célibataire) ?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Tous les jours / Je suis heureux seul",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Plusieurs fois par semaine",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Une fois par semaine ou moins",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Presque jamais",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 20,
+				"question": "Discutez-vous des problèmes et des questions importantes avec votre partenaire (ou êtes-vous prêt à le faire à l'avenir) ?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Oui, nous discutons ouvertement de tous les problèmes",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Oui, mais il y a des sujets que nous évitons",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Pas toujours, certains problèmes restent non résolus",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Non, nous ne discutons pas des questions importantes",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 21,
+				"question": "Combien de fois vous engagez-vous dans l'auto-éducation (lire des livres, écouter des podcasts, regarder des vidéos éducatives) ?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Tous les jours ou plusieurs fois par semaine",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Parfois, quand j'ai du temps libre et de l'humeur",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Rarement, parce que je ne suis pas intéressé ou n'ai pas le temps",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Je ne lis pas de livres ou n'explore pas de nouveaux sujets",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 22,
+				"question": "Vous fixez-vous des objectifs de développement personnel ?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Oui, j'ai des objectifs clairs et des plans pour les atteindre",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Oui, j'ai des objectifs, mais le plan pour les atteindre n'est pas très clair",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "J'ai en quelque sorte des objectifs, mais je ne suis pas sûr qu'ils soient réalistes",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Non, je n'ai pas pensé à mes objectifs de développement personnel",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 23,
+				"question": "Comment exprimez-vous votre gratitude envers les personnes qui vous entourent ?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Je témoigne toujours ma gratitude aux personnes",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "J'essaie de montrer ma gratitude",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Je ne montre pas ma gratitude aux personnes",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Je ne sais pas comment exprimer ma gratitude",
+						"single": true
+					}
+				]
+			}
+		]
+	},
+	"de": {
+		"questions": [
+			{
+				"key": 0,
+				"question": "Treiben Sie Sport (Fitness, Schwimmen, Tanzen, Yoga usw.)?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Definitiv, regelmäßig",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Ich versuche es, mindestens 1-2 Mal pro Woche",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Sehr selten",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Ich treibe keinen Sport",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 1,
+				"question": "Bewerten Sie Ihre Ernährung.",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Gesund und ausgewogen",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Mehrheitlich gesund, aber nicht immer erfolgreich",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Ungesunde Lebensmittel überwiegen in der Ernährung",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Ich achte nicht auf meine Ernährung",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 2,
+				"question": "Wie oft gehen Sie zu medizinischen Untersuchungen?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regelmäßig, jedes Jahr",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Einmal alle paar Jahre",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Nur wenn ich gesundheitliche Probleme habe",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Ich erinnere mich nicht an das letzte Mal",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 3,
+				"question": "Wie beurteilen Sie Ihre finanzielle Situation?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ausgezeichnet, ich habe Ersparnisse und Investitionen",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Ich habe ein stabiles Einkommen, aber keine Ersparnisse",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Durchschnittlich, ich lebe von Gehaltsscheck zu Gehaltsscheck",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Kein stetiges Einkommen, nicht genug Geld für grundlegende Bedürfnisse",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 4,
+				"question": "Wie oft erstellen Sie ein Budget und verfolgen Ihre Ausgaben?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Monatlich",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Einmal alle paar Monate",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Nur im Falle von finanziellen Problemen",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Nie, ich plane mein Budget nicht",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 5,
+				"question": "Haben Sie finanzielle Ziele und Pläne für die Zukunft?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ja, ein langfristiger Plan zur Erreichung finanzieller Stabilität",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Ich denke darüber nach, weiß aber nicht, wie ich meine Pläne umsetzen soll",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Vielleicht, aber ich verbringe nicht viel Zeit damit",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Nein, ich denke nicht über meine finanziellen Pläne nach",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 6,
+				"question": "Wie zufrieden sind Sie mit Ihrer aktuellen Arbeit?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Sehr zufrieden und genieße es",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Zufrieden, aber es gibt Verbesserungspotenzial",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Ich bin unzufrieden mit meiner Arbeit, aber es gibt keine Alternativen",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Unzufrieden, würde gerne einen anderen Job finden/nicht arbeiten",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 7,
+				"question": "Wie oft verbessern Sie Ihre beruflichen Fähigkeiten?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regelmäßig, ich verbessere mich ständig",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Manchmal, wenn sich die Gelegenheit ergibt",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Selten, nur wenn es für die Arbeit notwendig ist",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Fast nie",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 8,
+				"question": "Wie beurteilen Sie Ihre Karriereaussichten?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Klar und positiv, ich weiß, wohin ich gehen soll",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Nicht schlecht, aber es gibt einige Unsicherheiten",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Durchschnittlich, es gibt Verbesserungspotenzial",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Unsicher oder nicht vorhanden",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 9,
+				"question": "Wie zufrieden sind Sie mit Ihren Wohnverhältnissen (Lage, Größe, Zustand)?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Sehr zufrieden, mein Zuhause ist meine Festung",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Zufrieden, aber es gibt Verbesserungspotenzial",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Neutrale Einstellung",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Unzufrieden, möchte die Bedingungen verbessern",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 10,
+				"question": "Wie oft beschäftigen Sie sich mit der Verbesserung Ihres Hauses/Wohnung oder Wohnraums?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regelmäßig, ich liebe ein schönes und gemütliches Zuhause",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Manchmal, wenn sich die Gelegenheit ergibt",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Selten, nur wenn nötig",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Fast nie",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 11,
+				"question": "Wie bewerten Sie Ihren Komfort im Alltag (Kleidung, Verkehr, Haushaltsgeräte)?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ausgezeichnet, ich habe alles für ein komfortables Leben",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Gut, aber es gibt Verbesserungspotenzial",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Durchschnittlich, erfordert Verbesserung",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Niedrig, Unbehagen erleben",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 12,
+				"question": "Wie oft haben Sie einen vollwertigen Urlaub (mindestens eine Woche)?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Einmal oder öfter pro Jahr",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Einmal alle paar Jahre",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Selten, nur wenn es einen besonderen Grund gibt",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Ich erinnere mich nicht an meinen letzten Urlaub",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 13,
+				"question": "Wie oft reisen Sie?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Häufig, ich liebe es zu reisen",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Manchmal, wenn ich Freizeit und Geld habe",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Selten, weil ich keine Zeit oder Geld habe",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Ich reise nicht",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 14,
+				"question": "Wie oft widmen Sie Zeit sich selbst/Ihren Hobbys oder Interessen?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ich widme regelmäßig Zeit mir selbst und meinen Interessen",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Ein paar Mal pro Woche, ich versuche mich nicht zu vergessen",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Einmal pro Woche oder weniger, wenn ich die Gelegenheit habe",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Fast nie, ich habe keine Zeit für mich selbst",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 15,
+				"question": "Wie interagieren Sie im Alltag mit Menschen?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ich kommuniziere leicht und angenehm mit Menschen",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Manchmal ist es schwierig, eine gemeinsame Basis mit Menschen zu finden, aber ich versuche es",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Ich bin nicht sehr gesellig, ich bin lieber allein",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Ich fühle Unbehagen bei der Kommunikation mit Menschen",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 16,
+				"question": "Wie zufrieden sind Sie mit Ihrem sozialen Umfeld (Freunde, Kollegen, Nachbarn)?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Sehr zufrieden, wunderbare Umgebung",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Im Allgemeinen zufrieden, aber es gibt Verbesserungspotenzial",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Neutrale Haltung, das sind einfach Menschen um mich herum",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Unzufrieden, würde gerne mein Umfeld verbessern",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 17,
+				"question": "Wie stehen Sie zu Ihren engen Verwandten?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ich habe gute Beziehungen zu meinen Verwandten",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Insgesamt ist alles in Ordnung, aber es gibt Konflikte",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Es gibt ernsthafte Probleme in den Beziehungen zu Verwandten",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Ich habe keine engen Verwandten",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 18,
+				"question": "Wie bewerten Sie Ihr derzeitiges Privatleben oder Ihre Beziehung zu Ihrem Partner?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ich bin glücklich in Beziehungen / Glücklich allein",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Gut, aber es gibt einige Missverständnisse",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Ich bin mit meiner Beziehung zu meinem Partner nicht zufrieden",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Probleme in Beziehungen erleben / Auf der Suche nach einem Partner",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 19,
+				"question": "Wie oft verbringen Sie Zeit mit Ihrem Partner (oder suchen aktiv nach einem Partner, wenn Sie Single sind)?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Jeden Tag / Ich bin alleine glücklich",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Mehrere Male pro Woche",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Einmal pro Woche oder weniger",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Fast nie",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 20,
+				"question": "Besprechen Sie wichtige Themen und Probleme mit Ihrem Partner (oder sind Sie bereit, dies in Zukunft zu tun)?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ja, wir besprechen offen alle Themen",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Ja, aber es gibt Themen, die wir vermeiden",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Nicht immer, einige Probleme bleiben ungelöst",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Nein, wir besprechen keine wichtigen Themen",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 21,
+				"question": "Wie oft betreiben Sie Selbstbildung (Bücher lesen, Podcasts hören, Bildungsvideos ansehen)?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Täglich oder mehrmals pro Woche",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Manchmal, wenn ich Freizeit und Stimmung habe",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Selten, weil ich nicht interessiert bin oder keine Zeit habe",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Ich lese keine Bücher oder erkunde neue Themen",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 22,
+				"question": "Setzen Sie sich persönliche Entwicklungsziele?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ja, ich habe klare Ziele und Pläne, um sie zu erreichen",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Ja, ich habe Ziele, aber der Plan, um sie zu erreichen, ist nicht sehr klar",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Ich habe irgendwie Ziele, aber ich bin mir nicht sicher, ob sie realistisch sind",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Nein, ich habe noch nicht über meine persönlichen Entwicklungsziele nachgedacht",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 23,
+				"question": "Wie zeigen Sie den Menschen um Sie herum Dankbarkeit?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Ich drücke den Menschen immer meine Dankbarkeit aus",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Ich versuche, Dankbarkeit zu zeigen",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Ich zeige den Menschen keine Dankbarkeit",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Ich weiß nicht, wie ich Dankbarkeit zeigen soll",
+						"single": true
+					}
+				]
+			}
+		]
+	},
+	"pt": {
+		"questions": [
+			{
+				"key": 0,
+				"question": "Você pratica esportes (fitness, natação, dança, yoga, etc.)?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Definitivamente, regularmente",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Eu tento, pelo menos 1-2 vezes por semana",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Muito raramente",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Eu não pratico esportes",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 1,
+				"question": "Avalie sua dieta.",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Saudável e equilibrada",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Na maioria das vezes saudável, mas nem sempre bem-sucedida",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Alimentos não saudáveis predominam na dieta",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Eu não presto atenção na minha dieta",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 2,
+				"question": "Com que frequência você passa por exames médicos?",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regularmente, todo ano",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Uma vez a cada poucos anos",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Somente quando tenho problemas de saúde",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Eu não me lembro da última vez que fiz um exame",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 3,
+				"question": "Como você avalia sua situação financeira?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Excelente, tenho economias e investimentos",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Tenho uma renda estável, mas não tenho economias",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Média, vivo de salário em salário",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Sem renda estável, não tenho dinheiro suficiente para minhas necessidades básicas",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 4,
+				"question": "Com que frequência você cria um orçamento e controla seus gastos?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Mensalmente",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Uma vez a cada poucos meses",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Somente em caso de problemas financeiros",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Nunca, eu não planejo meu orçamento",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 5,
+				"question": "Você tem objetivos financeiros e planos para o futuro?",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Sim, um plano de longo prazo para alcançar estabilidade financeira",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Eu penso sobre isso, mas não sei como implementar meus planos",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Talvez, mas não dedico muito tempo a isso",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Não, eu não penso sobre meus planos financeiros",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 6,
+				"question": "Como você está satisfeito com seu trabalho atual?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Muito satisfeito e gosto do meu trabalho",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Satisfeito, mas há espaço para melhorias",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Estou insatisfeito com meu trabalho, mas não há alternativas",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Insatisfeito, gostaria de encontrar outro trabalho/não estou trabalhando",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 7,
+				"question": "Com que frequência você aprimora suas habilidades profissionais?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regularmente, estou constantemente me aprimorando",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Às vezes, quando a oportunidade surge",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Raramente, somente se for necessário para o trabalho",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Quase nunca",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 8,
+				"question": "Como você avalia suas perspectivas de carreira?",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Claras e positivas, eu sei para onde ir",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Não é ruim, mas há alguma incerteza",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Média, há espaço para melhorias",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Incertas ou ausentes",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 9,
+				"question": "Como você está satisfeito com as condições de sua habitação (localização, tamanho, condição)?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Muito satisfeito, minha casa é meu refúgio",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Satisfeito, mas há espaço para melhorias",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Atitude neutra",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Insatisfeito, gostaria de melhorar as condições",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 10,
+				"question": "Com que frequência você se dedica a melhorar sua casa/apartamento ou espaço de vida?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Regularmente, adoro ter uma casa bonita e aconchegante",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Às vezes, quando a oportunidade surge",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Raramente, somente quando necessário",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Quase nunca",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 11,
+				"question": "Como você avalia seu nível de conforto na vida cotidiana (vestuário, transporte, eletrodomésticos)?",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Excelente, tenho tudo para uma vida confortável",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Bom, mas há espaço para melhorias",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Médio, precisa de melhorias",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Baixo, experimentando desconforto",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 12,
+				"question": "Com que frequência você tem férias completas (pelo menos uma semana)?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Uma ou mais vezes por ano",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Uma vez a cada poucos anos",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Raramente, somente se houver uma razão especial",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Não me lembro da última vez que tive férias",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 13,
+				"question": "Com que frequência você viaja?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Frequentemente, adoro viajar",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Às vezes, quando tenho tempo livre e dinheiro",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Raramente, porque não tenho tempo ou dinheiro",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Não viajo",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 14,
+				"question": "Com que frequência você se dedica a si mesmo/seus hobbies ou interesses?",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Dedico regularmente tempo a mim mesmo e meus interesses",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Algumas vezes por semana, tento não esquecer de mim mesmo",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Uma vez por semana ou menos, quando tenho a oportunidade",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Quase nunca, não tenho tempo para mim mesmo",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 15,
+				"question": "Como você interage com as pessoas no dia a dia?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Eu comunico facilmente e com prazer com as pessoas",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Às vezes é difícil encontrar um terreno comum com as pessoas, mas eu tento",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Não sou muito sociável, prefiro estar sozinho",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Sinto desconforto ao comunicar com pessoas",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 16,
+				"question": "Quão satisfeito você está com o seu ambiente social (amigos, colegas, vizinhos)?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Muito satisfeito, ambiente maravilhoso",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Em geral, satisfeito, mas há espaço para melhorias",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Atitude neutra, eles são apenas pessoas ao meu redor",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Insatisfeito, gostaria de melhorar meu ambiente",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 17,
+				"question": "Como você se relaciona com seus parentes próximos?",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Eu tenho boas relações com meus parentes",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "No geral, está tudo bem, mas há conflitos",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Existem problemas sérios nos relacionamentos com parentes",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Eu não tenho parentes próximos",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 18,
+				"question": "Como você avalia sua vida pessoal atual ou relacionamento com seu parceiro?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Estou feliz em relacionamentos / Feliz sozinho(a)",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Bom, mas há alguns mal-entendidos",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Não estou satisfeito(a) com meu relacionamento com meu parceiro",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Enfrentando problemas em relacionamentos / Procurando um(a) parceiro(a)",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 19,
+				"question": "Com que frequência você passa tempo com seu parceiro (ou busca ativamente um parceiro se você é solteiro(a))? ",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Todos os dias / Estou feliz sozinho(a)",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Várias vezes por semana",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Uma vez por semana ou menos",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Quase nunca",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 20,
+				"question": "Você discute questões e problemas importantes com seu parceiro (ou está disposto(a) a fazê-lo no futuro)?",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Sim, discutimos abertamente todas as questões",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Sim, mas há tópicos que evitamos",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Não sempre, algumas questões permanecem sem solução",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Não, não discutimos questões importantes",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 21,
+				"question": "Com que frequência você se dedica à autoeducação (leitura de livros, audição de podcasts, assistindo a vídeos educacionais)?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Diariamente ou várias vezes por semana",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Às vezes, quando tenho tempo livre e disposição",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Raramente, porque não me interesso ou não tenho tempo",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Não leio livros ou exploro novos tópicos",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 22,
+				"question": "Você estabelece metas de desenvolvimento pessoal para si mesmo?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Sim, tenho metas claras e planos para alcançá-las",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Sim, tenho metas, mas o plano para alcançá-las não é muito claro",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Eu meio que tenho metas, mas não tenho certeza se elas são realistas",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Não, não pensei sobre minhas metas de desenvolvimento pessoal",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 23,
+				"question": "Como você demonstra gratidão às pessoas ao seu redor?",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "Eu sempre expresso gratidão às pessoas",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "Eu tento mostrar gratidão",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "Eu não demonstro gratidão às pessoas",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "Eu não sei como demonstrar gratidão",
+						"single": true
+					}
+				]
+			}
+		]
+	},
+	"jp": {
+		"questions": [
+			{
+				"key": 0,
+				"question": "スポーツ（フィットネス、水泳、ダンス、ヨガなど）に参加しますか？",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "はい、定期的に参加しています",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "週に1〜2回、少なくとも試みています",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "ほとんど参加しない",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "スポーツには参加していません",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 1,
+				"question": "あなたの食生活を評価してください。",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "健康的でバランスが取れています",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "ほとんど健康的ですが、常に成功しているわけではありません",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "不健康な食物が食生活を支配しています",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "食生活に注意を払っていません",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 2,
+				"question": "どのくらいの頻度で健康診断を受けますか？",
+				"category": 3,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "毎年、定期的に受けています",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "数年に1度",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "健康問題がある場合にのみ受けます",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "最後に受けたのを覚えていません",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 3,
+				"question": "あなたの財政状況はどのように評価しますか？",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "優れており、貯蓄や投資があります",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "安定した収入がありますが、貯蓄はありません",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "給料日前日まで暮らしているような平均的な状況です",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "収入が安定しておらず、基本的なニーズに十分なお金がありません",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 4,
+				"question": "予算を立てて、支出を追跡する頻度はどのくらいですか？",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "毎月",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "数か月に1回",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "財政的な問題が発生した場合のみ",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "予算を立てないため、支出を計画しない",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 5,
+				"question": "将来の財務目標や計画を持っていますか？",
+				"category": 2,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "はい、財政的安定を達成するための長期計画があります",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "考えてはいるが、計画を実施する方法がわからない",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "多少考えてはいますが、時間をあまりかけていません",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "財務計画については考えていません",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 6,
+				"question": "現在の仕事にどの程度満足していますか？",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "とても満足して楽しんでいます",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "満足していますが、改善の余地があります",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "仕事に不満がありますが、他に選択肢がありません",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "不満で、他の仕事を見つけたい/仕事をしていない",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 7,
+				"question": "どのくらい頻繁に専門的なスキルを向上させていますか？",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "定期的に、常に向上しています",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "時々、機会があれば",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "必要に応じて、ほとんど向上させません",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "ほとんどしない",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 8,
+				"question": "あなたのキャリアの見通しをどう評価しますか？",
+				"category": 1,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "明確でポジティブで、どこに進むかわかっています",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "悪くはありませんが、不確実性があります",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "平均的で、改善の余地があります",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "不確実または見当たりません",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 9,
+				"question": "住宅条件（場所、広さ、状態）について、どの程度満足していますか？",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "非常に満足しています。私の家は私の城です。",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "満足していますが、改善の余地があります",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "中立的な態度です",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "不満で、状況を改善したいです",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 10,
+				"question": "どのくらいの頻度で、自宅/アパートや生活空間を改善するように努めていますか？",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "定期的に、美しい居心地の良い家を持つことが大好きです",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "機会があるときにだけ",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "必要になったときのみ",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "ほとんどしない",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 11,
+				"question": "日常生活（衣服、交通手段、家庭用品）における快適さのレベルをどのように評価しますか？",
+				"category": 0,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "素晴らしいです。快適な生活に必要なものはすべて揃っています",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "良いですが、改善の余地があります",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "平均的で、改善が必要です",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "低く、不快な状態にあります",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 12,
+				"question": "一週間以上の長期休暇を取る頻度はどの程度ですか？",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "年に一度以上",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "数年に一度",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "特別な理由がある場合にのみ稀に",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "最後に休暇を取ったのを覚えていない",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 13,
+				"question": "旅行をする頻度はどの程度ですか？",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "よく旅行する、旅行が大好きです",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "時間とお金があるときに時々旅行する",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "時間やお金がないため稀にしか旅行しない",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "旅行しない",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 14,
+				"question": "自分自身や自分の趣味・興味に時間を割く頻度はどの程度ですか？",
+				"category": 5,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "定期的に自分自身と自分の趣味・興味に時間を割いている",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "週に数回、自分自身を忘れないようにしている",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "機会があるときに週に一度またはそれ以下の頻度で割く",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "ほとんど割かない、自分自身のための時間がない",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 15,
+				"question": "日常生活で人々とどのようにやりとりしていますか？",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "人々と簡単に円滑なコミュニケーションを楽しめます",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "人々と共通点を見つけることが難しいことがありますが、努力します",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "あまり社交的ではなく、一人で過ごすことを好みます",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "人々とのコミュニケーションで不快感を感じます",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 16,
+				"question": "社会的な環境（友人、同僚、隣人）にどの程度満足していますか？",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "非常に満足しています。素晴らしい環境です。",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "一般的に満足していますが、改善の余地があります",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "中立的な態度をとっています。周りの人々というだけです",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "不満です。自分の環境を改善したいと思っています",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 17,
+				"question": "身近な親族との関係はどうですか？",
+				"category": 7,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "親族との関係が良好です",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "全体的に問題ないですが、衝突があります",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "親族との関係に深刻な問題があります",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "身近な親族がいません",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 18,
+				"question": "現在の個人生活またはパートナーとの関係についてどのように評価しますか？",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "関係において幸せです/一人で幸せです",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "良好ですが、相互理解に欠けることがあります",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "パートナーとの関係に満足していません",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "関係に問題があります/パートナーを探しています",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 19,
+				"question": "パートナーと過ごす時間（または独身であれば積極的にパートナーを探す時間）はどのくらいですか？",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "毎日/一人で幸せです",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "週に数回",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "週に1回またはそれ以下",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "ほとんどありません",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 20,
+				"question": "重要な問題や問題についてパートナーと話し合いますか？（将来的に話し合うつもりであるか）",
+				"category": 6,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "はい、私たちはすべての問題を公然と話し合っています",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "はい、しかし避ける話題があります",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "必ずしもそうではなく、いくつかの問題が未解決のままです",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "いいえ、重要な問題について話し合いません",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 21,
+				"question": "自己啓発活動（読書、ポッドキャストの聴取、教育ビデオの視聴など）にどのくらいの頻度で取り組みますか？",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "毎日または週に数回",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "気分や時間があるときに時々行います",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "興味がないか時間がないため、めったに行いません",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "本を読んだり新しいトピックを探求したりすることはありません",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 22,
+				"question": "自己啓発の目標を設定しますか？",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "はい、明確な目標があり、それを達成する計画があります",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "はい、目標はありますが、達成計画があまり明確ではありません",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "ある程度目標はありますが、現実的かどうかはわかりません",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "自分の自己啓発の目標について考えたことがありません",
+						"single": true
+					}
+				]
+			},
+			{
+				"key": 23,
+				"question": "周囲の人々に感謝の気持ちを示す方法は？",
+				"category": 4,
+				"answers": [
+					{
+						"key": 0,
+						"answer": "常に人々に感謝の気持ちを表現します",
+						"single": true
+					},
+					{
+						"key": 1,
+						"answer": "感謝の気持ちを示すように心がけます",
+						"single": true
+					},
+					{
+						"key": 2,
+						"answer": "人々に感謝の気持ちを示しません",
+						"single": true
+					},
+					{
+						"key": 3,
+						"answer": "どのように感謝の気持ちを示せばよいかわかりません",
+						"single": true
+					}
+				]
+			}
+		]
+	}
+}
