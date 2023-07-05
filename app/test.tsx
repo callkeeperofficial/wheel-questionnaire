@@ -47,7 +47,7 @@ export default function ModalScreen() {
 
   return (
       <ContainerTemplate>
-        <View style={{ width: "100%", flex: 1, justifyContent: "flex-start" }}>
+        {/*<View style={{ width: "100%", flex: 1, justifyContent: "flex-start" }}>*/}
         <View style={styles.blackLinkContainer}>
         { <BlackLink style={{ opacity: goBackOrNot ? 1 : 0 }} onPress={previousPage} chevron>{goBackOrNot}</BlackLink> }
         </View>
@@ -61,13 +61,14 @@ export default function ModalScreen() {
         <View flex style={{ width: "100%" }}>
           <AnsweringTheQuestions onFinish={saveComputedSegments(computeResults)} page={page} items={questions} setPage={setPage}/>
         </View>
-        </View>
+        {/*</View>*/}
       </ContainerTemplate>
   );
 }
 
 const styles = StyleSheet.create({
   image: {
+    width: "100%",
     height: 250,
   },
   title: {
