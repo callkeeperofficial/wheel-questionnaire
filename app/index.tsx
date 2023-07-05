@@ -42,11 +42,11 @@ const data: ILanguagePicker[] = [
 export default function WelcomeScreen() {
   const [langPick, setLangPick] = useState(false);
   const router = useRouter();
-  const imageHeight = Dimensions.get('window').width - 100;
+  const imageHeight = Dimensions.get('window').width * .8 - 100;
 
   return (
       <ContainerTemplate>
-          <View style={{width: "100%" }}>
+          <View style={{ width: "100%", alignItems: "center" }}>
             <Image style={[styles.image, { height: imageHeight }]} source={megaCreator} resizeMode={"contain"}/>
           </View>
           <Text style={styles.title}>{i18n.t("welcome")}</Text>
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     width: '80%',
   },
   image: {
-    width: "100%",
+    width: "80%",
     maxHeight: 400
   },
   button: {
