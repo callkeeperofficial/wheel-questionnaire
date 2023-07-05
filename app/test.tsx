@@ -11,6 +11,7 @@ import { ProgressBarFeatured } from "../components/molecules/ProgessBarFeatured"
 import { UnitQuestion } from "../types/QuestionTypes";
 import { saveSegments } from "../components/utils/LocalWherhouse";
 import { questionImages } from "../components/utils/ImageUtility";
+import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
 
 
 export default function ModalScreen() {
@@ -45,44 +46,27 @@ export default function ModalScreen() {
   const saveComputedSegments = (computeResults: Function) => () => saveSegments(computeResults());
 
   return (
-      <View style={styles.container}>
-        <View style={styles.innerContainer}>
-          <View style={styles.blackLinkContainer}>
-          { <BlackLink style={{ opacity: goBackOrNot ? 1 : 0 }} onPress={previousPage} chevron>{goBackOrNot}</BlackLink> }
-          </View>
-          <ProgressBarFeatured
-              textStyle={styles.progressBarText}
-              textBottomLeft={getPageCounter()}
-              textBottomRight={getCurrentPage() + "%"}
-              progress={getCurrentPage()}
-              progressColor={"#29B4FF"} />
-          <Image style={styles.image} source={questionImages[page]} resizeMode="contain"/>
-          <View flex style={{ width: "100%" }}>
-            <AnsweringTheQuestions onFinish={saveComputedSegments(computeResults)} page={page} items={questions} setPage={setPage}/>
-          </View>
+      <ContainerTemplate>
+        <View style={styles.blackLinkContainer}>
+        { <BlackLink style={{ opacity: goBackOrNot ? 1 : 0 }} onPress={previousPage} chevron>{goBackOrNot}</BlackLink> }
         </View>
-    </View>
+        <ProgressBarFeatured
+            textStyle={styles.progressBarText}
+            textBottomLeft={getPageCounter()}
+            textBottomRight={getCurrentPage() + "%"}
+            progress={getCurrentPage()}
+            progressColor={"#29B4FF"} />
+        <Image style={styles.image} source={questionImages[page]} resizeMode="contain"/>
+        <View flex style={{ width: "100%" }}>
+          <AnsweringTheQuestions onFinish={saveComputedSegments(computeResults)} page={page} items={questions} setPage={setPage}/>
+        </View>
+      </ContainerTemplate>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
   image: {
-    width: 240,
     height: 280,
-  },
-  innerContainer: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: 500,
-    backgroundColor: "white",
-    borderRadius: 20,
-    padding: 30
   },
   title: {
     fontSize: 20,

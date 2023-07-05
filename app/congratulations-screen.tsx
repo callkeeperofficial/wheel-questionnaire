@@ -6,7 +6,7 @@ import lottie from "lottie-web";
 import congratulationConfettiModule from "../assets/images/lottie/congratulation-confetti.json";
 import { goToLiferadar, goToQrPage } from "../components/utils/StaticFunctions";
 import { GlobalContext } from "../components/contexts/GlobalContext";
-import { congratulationConfetti } from "../components/utils/ImageUtility";
+import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
 
 
 export default function CongratulationsScreen() {
@@ -35,52 +35,29 @@ export default function CongratulationsScreen() {
   }, []);
 
   return (
-    <View style={styles.container}>
-      <View style={styles.firstContainer}>
-        <div style={styles.lottieContainer} ref={lottieContainer as MutableRefObject<HTMLDivElement>}/>
-        <View style={styles.innerContainer}>
-          <Text style={styles.title}>Поздравляем!</Text>
-          <View style={styles.marginTop20}/>
-          <Text style={styles.description}>Вы заполнили колесо баланса!</Text>
-          <View style={styles.marginTop20}/>
-          <Text style={styles.description}>Смотрите результаты и рекомендации в приложении Liferadar и узнайте в каких сферах можно черпать ресурс, а над какими стоит поработать.</Text>
-          <View style={styles.marginTop20}/>
-          <View style={styles.takeTestButton}>
-            <TouchableOpacity onPress={goToLiferadarLocal}>
-                <View style={styles.button}>
-                  <Text style={styles.buttonText}>Скачать</Text>
-                </View>
-            </TouchableOpacity>
-          </View>
-          <View style={styles.marginTop20}/>
-          <BlackLink textStyle={styles.linkTextStyle} onPress={goToQrPage.bind(null, router)}>Я уже скачал</BlackLink>
+      <ContainerTemplate
+          heroElement={<div style={styles.lottieContainer} ref={lottieContainer as MutableRefObject<HTMLDivElement>}/>}
+      >
+        <Text style={styles.title}>Поздравляем!</Text>
+        <View style={styles.marginTop20}/>
+        <Text style={styles.description}>Вы заполнили колесо баланса!</Text>
+        <View style={styles.marginTop20}/>
+        <Text style={styles.description}>Смотрите результаты и рекомендации в приложении Liferadar и узнайте в каких сферах можно черпать ресурс, а над какими стоит поработать.</Text>
+        <View style={styles.marginTop20}/>
+        <View style={styles.takeTestButton}>
+          <TouchableOpacity onPress={goToLiferadarLocal}>
+              <View style={styles.button}>
+                <Text style={styles.buttonText}>Скачать</Text>
+              </View>
+          </TouchableOpacity>
         </View>
-      </View>
-    </View>
+        <View style={styles.marginTop20}/>
+        <BlackLink textStyle={styles.linkTextStyle} onPress={goToQrPage.bind(null, router)}>Я уже скачал</BlackLink>
+      </ContainerTemplate>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: "#eee",
-  },
-  firstContainer: {
-    flex: 1,
-    width: 500,
-    backgroundColor: "white",
-    borderRadius: 20,
-  },
-  innerContainer: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: "space-around",
-    paddingHorizontal: 50,
-    paddingBottom: 50,
-    borderRadius: 20,
-  },
   title: {
     fontSize: 20,
     fontWeight: 'bold',

@@ -1,8 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { View } from "react-native-ui-lib";
 import { QuestionnaireButton } from "../atoms/QuestionnaireButton";
-import { FlatList, StyleSheet } from "react-native";
-import { Text24 } from "../atoms/Text24";
+import { FlatList, StyleSheet, Text } from "react-native";
 import { Gap } from "../atoms/Gap";
 import { Pick } from "../utils/Multipick";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -67,7 +66,7 @@ export const AnsweringTheQuestions = (props: AnsweringTheQuestionsProps) => {
     return (
         <View flex key={currentQuestion.key} style={styles.container}>
             <View flex-2 center>
-                <Text24 fs22>{currentQuestion.question}</Text24>
+                <Text style={styles.questionText}>{currentQuestion.question}</Text>
             </View>
             <Gap h20 />
             <View flex-8>
@@ -90,5 +89,10 @@ const styles = StyleSheet.create({
     },
     flatList: {
         flex: 1
+    },
+    questionText: {
+        fontSize: 18,
+        fontWeight: "bold",
+        textAlign: "center",
     }
 });

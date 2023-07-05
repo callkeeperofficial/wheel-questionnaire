@@ -6,11 +6,13 @@ import { GlobalContext } from "../components/contexts/GlobalContext";
 import { loadSegments } from "../components/utils/LocalWherhouse";
 import { appLogo } from "../components/utils/ImageUtility";
 import { goBack, goToLiferadar } from "../components/utils/StaticFunctions";
+import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
 
 
 export default function QrPage() {
   const router = useRouter();
   const { segments, setSegments } = useContext(GlobalContext);
+  const goToApp = goToLiferadar(segments.join(""));
 
   useEffect(() => {
     // console.log("QrPage", "useEffect", segments);
@@ -20,18 +22,21 @@ export default function QrPage() {
   }, []);
 
   return (
-    <View style={styles.container}>
-        <View style={styles.innerContainer}>
-          <Image style={styles.image} source={appLogo}/>
+      <ContainerTemplate>
+          <TouchableOpacity onPress={goToApp}>
+            <Image style={styles.image} source={appLogo}/>
+          </TouchableOpacity>
           <View style={styles.marginTop20}/>
           <Text style={styles.title}>Откройте приложение Liferadar</Text>
           <View style={styles.marginTop20}/>
           <Text style={styles.description}>И введите код в раделе Колесо Баланса:</Text>
           <View style={styles.marginTop20}/>
-          <View style={styles.numbersTextView}>
-            <View style={styles.transparentBackground}/>
-            <Text style={styles.numbersText}>{segments.join("")}</Text>
-          </View>
+          <TouchableOpacity onPress={goToApp}>
+              <View style={styles.numbersTextView}>
+                    <View style={styles.transparentBackground}/>
+                    <Text style={styles.numbersText}>{segments.join("")}</Text>
+              </View>
+          </TouchableOpacity>
           <View style={styles.marginTop20}/>
           <Text style={styles.description}>Колесо Жизненного Баланса и результаты теста уже ждут вас в приложении Liferadar 🙏🏻</Text>
           <View style={styles.marginTop20}/>
@@ -44,27 +49,11 @@ export default function QrPage() {
           </View>
           <View style={styles.marginTop20}/>
           <BlackLink textStyle={styles.linkTextStyle} onPress={goBack.bind(null, router)}>Вернуться назад</BlackLink>
-        </View>
-    </View>
+      </ContainerTemplate>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: "#eee",
-  },
-  innerContainer: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'space-around',
-    width: 500,
-    backgroundColor: "white",
-    borderRadius: 20,
-    padding: 50
-  },
   title: {
     fontSize: 20,
     fontWeight: 'bold',
