@@ -3,9 +3,10 @@ import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 import { useRouter } from "expo-router";
 import { BlackLink } from "../components/atoms/BlackLink";
 import lottie from "lottie-web";
-import { congratulationConfetti } from "../components/utils/ImageUtility";
+import congratulationConfettiModule from "../assets/images/lottie/congratulation-confetti.json";
 import { goToLiferadar, goToQrPage } from "../components/utils/StaticFunctions";
 import { GlobalContext } from "../components/contexts/GlobalContext";
+import { congratulationConfetti } from "../components/utils/ImageUtility";
 
 
 export default function CongratulationsScreen() {
@@ -27,7 +28,8 @@ export default function CongratulationsScreen() {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: congratulationConfetti// the path to the animation json
+        // path: congratulationConfetti, // the path to the animation json
+        animationData: congratulationConfettiModule
       });
     }
   }, []);

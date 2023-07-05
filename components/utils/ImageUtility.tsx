@@ -25,5 +25,6 @@ export const questionImages = [
     require("../../assets/images/questions/webp/23.webp"),
 ];
 export const appLogo = require("../../assets/images/questions/png/app-logo.png");
+require("../../assets/images/lottie/congratulation-confetti.json");
 export const congratulationConfetti =  "../../assets/images/lottie/congratulation-confetti.json";
 export const megaCreator = require("../../assets/images/questions/png/mega-creator.png");
