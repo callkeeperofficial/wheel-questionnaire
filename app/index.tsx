@@ -12,35 +12,46 @@ import {useState} from "react";
 
 const data: ILanguagePicker[] = [
   {
+    title: "Deutsch",
+    imageSource: require("../assets/images/flags/germany.png"),
+    language: "de",
+  },
+  {
     title: "English",
-    imageSource: require("react-native-language-select/lib/local-assets/america.png"),
+    imageSource: require("../assets/images/flags/america.png"),
     language: "en",
   },
   {
-    title: "Italian",
-    imageSource: require("react-native-language-select/lib/local-assets/italy.png"),
-  },
-  {
-    title: "German",
-    imageSource: require("react-native-language-select/lib/local-assets/germany.png"),
-  },
-  {
-    title: "Turkish",
-    imageSource: require("react-native-language-select/lib/local-assets/turkey.png"),
-    language: "tr-TR",
-  },
-  {
-    title: "Swedish",
-    imageSource: require("react-native-language-select/lib/local-assets/sweden.png"),
+    title: "French",
+    imageSource: require("../assets/images/flags/france.png"),
+    language: "fr",
   },
   {
     title: "Japanese",
-    imageSource: require("react-native-language-select/lib/local-assets/japan.png"),
+    imageSource: require("../assets/images/flags/japan.png"),
+    language: "jp",
+  },
+  {
+    title: "Portuguese",
+    imageSource: require("../assets/images/flags/portugal.png"),
+    language: "pt",
+  },
+  {
+    title: "Russian",
+    imageSource: require("../assets/images/flags/russia.png"),
+    language: "ru",
+  },
+  {
+    title: "Spanish",
+    imageSource: require("../assets/images/flags/spain.png"),
+    language: "es",
   },
 ];
 
 export default function WelcomeScreen() {
   const [langPick, setLangPick] = useState(false);
+  const findLocaleIndex = (isoCode: string) => data.findIndex(l => l.language === isoCode);
+  const [localeIndex, setLocaleIndex] = useState(findLocaleIndex(i18n.locale));
   const router = useRouter();
   const imageHeight = Dimensions.get('window').width * .8 - 100;
 
@@ -59,10 +70,10 @@ export default function WelcomeScreen() {
             </TouchableOpacity>
           </View>
         <View style={styles.footer}>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => setLangPick(!langPick)}>
             <View style={{ flexDirection: "row", alignItems: "center" }}>
-              <Image style={{width: 24, height: 24}} source={require("react-native-language-select/lib/local-assets/sweden.png")}/>
-              <Text style={{ paddingLeft: 10}}>Jr</Text>
+              <Image style={{width: 24, height: 24}} source={data[localeIndex].imageSource}/>
+              <Text style={{ paddingLeft: 10}}>{data[localeIndex].language.toLocaleUpperCase()}</Text>
             </View>
           </TouchableOpacity>
           <View>
@@ -71,13 +82,19 @@ export default function WelcomeScreen() {
             </TouchableOpacity>
           </View>
         </View>
-        <View style={{ position: "absolute", zIndex: 1, display: "none", alignItems: "center", justifyContent: "flex-end", borderWidth: 1, height: "100%", width: "100%" }}>
-          <View>
+        <View style={[styles.languagePicker, { display: langPick ? "flex" : "none" }]}>
+          <View style={styles.languageContainer}>
             <LanguagePicker
-                initialIndex={1}
+                // containerWidth={300}
+                flatListStyle={{width: 300}}
+                languageItemProps={{width: 300}}
+
+                initialIndex={localeIndex}
                 data={data}
                 onSelect={(selectedItem: ILanguagePicker) => {
+                  setLangPick(false);
                   console.log(selectedItem);
+                  setLocaleIndex(findLocaleIndex(selectedItem.language as string))
                 }}
             />
           </View>
@@ -120,9 +137,21 @@ const styles = StyleSheet.create({
     width: "100%",
     marginVertical: 30,
   },
+  languagePicker: {
+    position: "absolute",
+    zIndex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    // borderWidth: 1,
+    height: "100%",
+    width: "100%"
+  },
+  languageContainer: {
+
+  },
   footer: {
     flexDirection: "row",
     justifyContent: "space-between",
     width: "100%"
-  }
+  },
 });

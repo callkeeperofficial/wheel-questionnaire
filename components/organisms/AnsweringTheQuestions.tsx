@@ -68,7 +68,6 @@ export const AnsweringTheQuestions = (props: AnsweringTheQuestionsProps) => {
             <View flex-2 center>
                 <Text style={styles.questionText}>{currentQuestion.question}</Text>
             </View>
-            <Gap h20 />
             <View flex-8>
                 <FlatList
                     style={styles.flatList}

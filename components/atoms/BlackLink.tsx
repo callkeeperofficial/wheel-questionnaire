@@ -19,9 +19,9 @@ export const BlackLink = (props: BlackLinkProps) => {
     return (
         <TouchableOpacity padding-3 onPress={onPress} style={[style]}>
             <View row>
-                {/*{chevron && <Pikachu source={"chevron-left"} size={20} style={{alignSelf: "center"}}/>}*/}
+                {chevron && <Pikachu source={"chevron-left"} size={20} style={{alignSelf: "center"}}/>}
                 <Text24 normal fs16 style={textStyle}>{children}</Text24>
-                {/*{chevronRight && <Pikachu source={"chevron-right"} size={20} style={{alignSelf: "center"}}/>}*/}
+                {chevronRight && <Pikachu source={"chevron-right"} size={20} style={{alignSelf: "center"}}/>}
             </View>
         </TouchableOpacity>
     );
