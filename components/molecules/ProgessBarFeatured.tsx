@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProgressBar, View } from "react-native-ui-lib";
-import { Text24 } from "../atoms/Text24";
 import { Gap } from "../atoms/Gap";
+import { StyleSheet , Text } from "react-native";
 
 export const ProgressBarFeatured = ({
                                         text,
@@ -21,14 +21,21 @@ export const ProgressBarFeatured = ({
     return (
         <View style={containerStyleInternal}>
             { (text || textRight) && <><Gap/><View row spread paddingH-5>
-                <Text24 fs20 style={[textStyle]}>{text}</Text24>
-                <Text24 fs20 style={[textStyle]}>{textRight}</Text24>
+                <Text style={[styles.projectText, textStyle]}>{text}</Text>
+                <Text style={[styles.projectText, textStyle]}>{textRight}</Text>
             </View></>}
             <ProgressBar style={barStyleInternal} fullWidth progress={progress} progressColor={progressColor}/>
             { (textBottomLeft || textBottomRight) && <><Gap/><View row spread paddingH-5>
-                <Text24 fs20 style={[textStyle]}>{textBottomLeft}</Text24>
-                <Text24 fs20 style={[textStyle]}>{textBottomRight}</Text24>
+                <Text style={[styles.projectText, textStyle]}>{textBottomLeft}</Text>
+                <Text style={[styles.projectText, textStyle]}>{textBottomRight}</Text>
             </View></>}
         </View>
     );
 };
+
+const styles = StyleSheet.create({
+    projectText: {
+        fontSize: 18,
+        fontWeight: "bold",
+    },
+});

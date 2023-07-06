@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     },
     answerText: {
         textAlign: "center",
-        fontSize: 16,
+        fontSize: 14,
         fontWeight: "bold",
     }
 });
