@@ -86,7 +86,7 @@ export default function WelcomeScreen() {
           <View style={styles.languageContainer}>
             <LanguagePicker
                 // containerWidth={300}
-                flatListStyle={{width: 300}}
+                flatListStyle={{width: 300, height: "100%"}}
                 languageItemProps={{width: 300}}
 
                 initialIndex={localeIndex}
