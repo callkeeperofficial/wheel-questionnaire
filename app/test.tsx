@@ -24,7 +24,7 @@ export default function ModalScreen() {
   const leadingPage = page + 1;
   const getCurrentPage = () => Math.round(leadingPage / questions.length * 100);
   const getPageCounter = () => leadingPage + "/" + questions.length;
-  const goBackOrNot =  page ? " "  : "";
+  const goBackOrNot =  page ? " "  : " ";
   const previousPage = () => setPage(Math.max(page - 1, 0));
 
   const computeResults = () => {
@@ -49,7 +49,8 @@ export default function ModalScreen() {
       <ContainerTemplate>
         <View style={{ width: "100%", flex: 1, justifyContent: "flex-start" }}>
         <View style={styles.blackLinkContainer}>
-        { <BlackLink style={{ opacity: goBackOrNot ? 1 : 0 }} onPress={previousPage} chevron>{goBackOrNot}</BlackLink> }
+          <BlackLink style={{ opacity: goBackOrNot ? 1 : 0 }} onPress={previousPage} chevron>{goBackOrNot}</BlackLink>
+          {/*<BlackLink style={{ opacity: goBackOrNot ? 1 : 0 }} onPress={previousPage} chevron>{goBackOrNot}</BlackLink>*/}
         </View>
         <ProgressBarFeatured
             textStyle={styles.progressBarText}
