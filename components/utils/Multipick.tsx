@@ -1,5 +1,5 @@
 
-export const multiPick = (selectedIds, setSelectedIds, key) => {
+export const multiPick = (selectedIds: number[], setSelectedIds: Function, key: number) => {
     if (~selectedIds.indexOf(key)) {
         selectedIds.splice(selectedIds.indexOf(key), 1);
         setSelectedIds([...selectedIds]);
@@ -9,15 +9,15 @@ export const multiPick = (selectedIds, setSelectedIds, key) => {
     }
 };
 
-export const selectItem = (selectedIds, setSelectedIds, key) => () => {
+export const selectItem = (selectedIds: number[], setSelectedIds: Function, key: number) => () => {
     requestAnimationFrame(() => {
         multiPick(selectedIds, setSelectedIds, key);
     });
 };
 
-export const isSelected = (selectedIds, key) => selectedIds.includes(key);
+export const isSelected = (selectedIds: number[], key: number) => selectedIds.includes(key);
 
-const set = (selectedIds, setSelectedIds, key, single = false) => () => {
+const set = (selectedIds: number[], setSelectedIds: Function, key: number, single = false) => () => {
     if (single) {
         setSelectedIds([key]);
     } else {
@@ -25,9 +25,9 @@ const set = (selectedIds, setSelectedIds, key, single = false) => () => {
     }
 };
 
-const flush = (setSelectedIds) => setSelectedIds([]);
+const flush = (setSelectedIds: Function) => setSelectedIds([]);
 
-export const Pick = (selectedIds, setSelectedIds) => ({
+export const Pick = (selectedIds: number[], setSelectedIds: Function) => ({
     multiPick: multiPick.bind(this, selectedIds, setSelectedIds),
     selectItem: selectItem.bind(this, selectedIds, setSelectedIds),
     isSelected: isSelected.bind(this, selectedIds),

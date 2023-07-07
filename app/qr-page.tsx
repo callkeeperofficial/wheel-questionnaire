@@ -6,8 +6,8 @@ import { GlobalContext } from "../components/contexts/GlobalContext";
 import { loadSegments } from "../components/utils/LocalWherhouse";
 import { appLogo } from "../components/utils/ImageUtility";
 import { goBack, goToLiferadar } from "../components/utils/StaticFunctions";
-import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
-import {i18n} from "../components/molecules/i18n";
+import { ContainerTemplate } from "../components/molecules/ContainerTemplate";
+import { i18n } from "../components/molecules/i18n";
 
 
 export default function QrPage() {

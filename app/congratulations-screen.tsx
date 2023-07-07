@@ -6,8 +6,8 @@ import lottie from "lottie-web";
 import congratulationConfettiModule from "../assets/images/lottie/congratulation-confetti.json";
 import { goToLiferadar, goToQrPage } from "../components/utils/StaticFunctions";
 import { GlobalContext } from "../components/contexts/GlobalContext";
-import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
-import {i18n} from "../components/molecules/i18n";
+import { ContainerTemplate } from "../components/molecules/ContainerTemplate";
+import { i18n } from "../components/molecules/i18n";
 
 
 export default function CongratulationsScreen() {

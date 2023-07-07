@@ -8,9 +8,15 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { GlobalContext } from "../contexts/GlobalContext";
 import { useRouter } from "expo-router";
 import { goToFinish } from '../utils/StaticFunctions';
+import { UnitQuestion } from "../../types/QuestionTypes";
 
 
-type AnsweringTheQuestionsProps = { onFinish: Function, page: number, setPage: Function, items: [] };
+type AnsweringTheQuestionsProps = {
+    onFinish: Function,
+    page: number,
+    setPage: Function,
+    items: UnitQuestion[]
+};
 
 export const AnsweringTheQuestions = (props: AnsweringTheQuestionsProps) => {
     const { onFinish, page, items, setPage } = props;
@@ -58,7 +64,7 @@ export const AnsweringTheQuestions = (props: AnsweringTheQuestionsProps) => {
             label={q.item.answer}
             // onPress={ q.item.single ? setSingle(q.item) : setMultiple(q.item) }
             onPress={pick.set(q.item.key, q.item.single)} icon={undefined}
-            borderWidth={pick.isSelected(q.item.key)}
+            borderWidth={pick.isSelected(q.item.key) ? 1 : 0}
             style={undefined}
             children={undefined}        />
     );

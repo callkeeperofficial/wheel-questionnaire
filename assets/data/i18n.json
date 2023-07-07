@@ -11,7 +11,7 @@
     "downloadAlready": "Я уже скачал",
     "openLiferadar": "Откройте приложение Liferadar",
     "enterCode": "И введите код в раделе Колесо Баланса:",
-    "wheelAwaitsYou": "ИКолесо Жизненного Баланса и результаты теста уже ждут вас в приложении Liferadar"
+    "wheelAwaitsYou": "Колесо Жизненного Баланса и результаты теста уже ждут вас в приложении Liferadar"
   },
   "en": {
     "welcome": "Welcome!",
@@ -25,7 +25,7 @@
     "downloadAlready": "I have already downloaded",
     "openLiferadar": "Open the Liferadar app",
     "enterCode": "And enter the code in the Balance Wheel:",
-    "wheelAwaitsYou": "And the Life Balance wheel and test results are already waiting for you in the Liferadar app"
+    "wheelAwaitsYou": "The Wheel of Life Balance and the test results are already waiting for you in the Liferadar app"
   },
   "de": {
     "welcome": "Willkommen!",
@@ -39,7 +39,7 @@
     "downloadAlready": "Ich habe bereits heruntergeladen",
     "openLiferadar": "Öffnen Sie die Liferadar-App",
     "enterCode": "Und geben Sie den Code in das Balance Rad ein:",
-    "wheelAwaitsYou": "Und das Rad des Lebensgleichgewichts und die Testergebnisse warten bereits auf Sie in der Liferadar App"
+    "wheelAwaitsYou": "Das Life Balance Wheel und die Testergebnisse warten bereits auf Sie in der Liferadar App"
   },
   "fr": {
     "welcome": "Bienvenue !",
@@ -53,7 +53,7 @@
     "downloadAlready": "J'ai déjà Téléchargé",
     "openLiferadar": "Ouvrez l'application Liferadar",
     "enterCode": "Et entrez le code dans la Roue d'équilibre de radel:",
-    "wheelAwaitsYou": "Le bilan de vie et les résultats du test sont déjà en attente pour vous dans l'application Liferadar"
+    "wheelAwaitsYou": "La roue de L'équilibre de la Vie et les résultats du test vous attendent déjà dans l'application Liferadar"
   },
   "jp": {
     "welcome": "ようこそ！",
@@ -67,7 +67,7 @@
     "downloadAlready": "私はすでにダウンロードしています",
     "openLiferadar": "Liferadarアプリを開く",
     "enterCode": "そして、バランスホイールにコードを入力します:",
-    "wheelAwaitsYou": "そして、ライフバランスホイールとテスト結果はすでにLiferadarアプリであなたを待っています"
+    "wheelAwaitsYou": "ライフバランスの輪とテスト結果は、すでにLiferadarアプリであなたを待っています"
   },
   "pt": {
     "welcome": "Bem-vindo!",
@@ -81,7 +81,7 @@
     "downloadAlready": "Eu já baixei",
     "openLiferadar": "Abra o aplicativo Liferadar",
     "enterCode": "E insira o código na roda de equilíbrio de Radel:",
-    "wheelAwaitsYou": "Icoleso de equilíbrio de vida e os resultados do teste já estão esperando por você no aplicativo Liferadar"
+    "wheelAwaitsYou": "A roda do equilíbrio vital e os resultados do teste já estão esperando por você no aplicativo Liferadar"
   },
   "es": {
     "welcome": "¡Bienvenido!",
@@ -95,6 +95,6 @@
     "downloadAlready": "Ya lo he descargado",
     "openLiferadar": "Abra la aplicación Liferadar",
     "enterCode": "E introduzca el código en la rueda de equilibrio Radel:",
-    "wheelAwaitsYou": "El balance de la vida y los resultados de la prueba ya están esperando en la aplicación Liferadar"
+    "wheelAwaitsYou": "La rueda de balance de Vida y los resultados de la prueba ya están esperando en la aplicación Liferadar"
   }
 }

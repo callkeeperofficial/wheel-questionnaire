@@ -8,8 +8,8 @@ import { ProgressBarFeatured } from "../components/molecules/ProgessBarFeatured"
 import { UnitQuestion } from "../types/QuestionTypes";
 import { saveSegments } from "../components/utils/LocalWherhouse";
 import { questionImages } from "../components/utils/ImageUtility";
-import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
-import {i18nQuestions} from "../components/molecules/i18n";
+import { ContainerTemplate } from "../components/molecules/ContainerTemplate";
+import { i18nQuestions } from "../components/molecules/i18n";
 
 
 export default function ModalScreen() {

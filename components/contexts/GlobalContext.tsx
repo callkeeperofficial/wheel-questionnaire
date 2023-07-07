@@ -4,7 +4,7 @@ import { AnswerObject, ContextThing } from "../../types/ContextTypes";
 
 export const GlobalContext = createContext<ContextThing>({
     answers: [],
-    setAnswers: null,
+    setAnswers: () => {},
     segments: [],
     setSegments: () => {}
 });

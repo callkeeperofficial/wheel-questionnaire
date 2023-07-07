@@ -4,13 +4,13 @@ import { StyleSheet } from 'react-native';
 
 
 type QuestionnaireButtonProps = {
-    onPress: Function,
-    label: string,
-    icon: any,
-    iconComponent: any,
-    borderWidth: number,
-    style: object,
-    children: any
+    onPress?: Function,
+    label?: string,
+    icon?: any,
+    iconComponent?: any,
+    borderWidth?: number,
+    style?: object,
+    children?: any
 }
 
 export const QuestionnaireButton = (props: QuestionnaireButtonProps) => {

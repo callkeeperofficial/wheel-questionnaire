@@ -6,8 +6,8 @@ export type AnswerObject = {
 };
 
 export type ContextThing = {
-    answers: AnswerObject[] | [],
-    setAnswers: Dispatch<SetStateAction<AnswerObject[]>> | null
-    segments: number[] | [],
+    answers: AnswerObject[],
+    setAnswers: Dispatch<SetStateAction<AnswerObject[]>> | Function
+    segments: number[],
     setSegments: Dispatch<SetStateAction<number[]>> | Function
 }
