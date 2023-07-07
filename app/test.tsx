@@ -45,21 +45,23 @@ export default function ModalScreen() {
 
   return (
       <ContainerTemplate>
-        <View style={{ width: "100%", flex: 1, justifyContent: "flex-start" }}>
-        <View style={styles.blackLinkContainer}>
-          <BlackLink style={{ opacity: page ? 1 : 0 }} onPress={previousPage} chevron>{" "}</BlackLink>
-          {/*<BlackLink style={{ opacity: goBackOrNot ? 1 : 0 }} onPress={previousPage} chevron>{goBackOrNot}</BlackLink>*/}
-        </View>
-        <ProgressBarFeatured
-            textStyle={styles.progressBarText}
-            textBottomLeft={getPageCounter()}
-            textBottomRight={getCurrentPage() + "%"}
-            progress={getCurrentPage()}
-            progressColor={"#29B4FF"} />
-        <Image style={styles.image} source={questionImages[page]} resizeMode="contain"/>
-        <View flex style={{ width: "100%" }}>
-          <AnsweringTheQuestions onFinish={saveComputedSegments(computeResults)} page={page} items={questions} setPage={setPage}/>
-        </View>
+        <View style={styles.thirdContainer}>
+          <View style={styles.blackLinkContainer}>
+            <BlackLink style={{ opacity: page ? 1 : 0 }} onPress={previousPage} chevron>{" "}</BlackLink>
+            {/*<BlackLink style={{ opacity: goBackOrNot ? 1 : 0 }} onPress={previousPage} chevron>{goBackOrNot}</BlackLink>*/}
+            <ProgressBarFeatured
+                textStyle={styles.progressBarText}
+                textBottomLeft={getPageCounter()}
+                textBottomRight={getCurrentPage() + "%"}
+                progress={getCurrentPage()}
+                progressColor={"#29B4FF"} />
+          </View>
+          <View style={styles.imageContainer}>
+            <Image style={styles.image} source={questionImages[page]} resizeMode="contain"/>
+          </View>
+          <View flex-6 style={styles.questionsContainer}>
+            <AnsweringTheQuestions onFinish={saveComputedSegments(computeResults)} page={page} items={questions} setPage={setPage}/>
+          </View>
         </View>
       </ContainerTemplate>
   );
@@ -68,7 +70,7 @@ export default function ModalScreen() {
 const styles = StyleSheet.create({
   image: {
     width: "100%",
-    height: 200,
+    height: "100%",
   },
   title: {
     fontSize: 20,
@@ -80,10 +82,23 @@ const styles = StyleSheet.create({
     width: '80%',
   },
   blackLinkContainer: {
+    flex: 1,
     alignItems: "flex-start",
     width: "100%"
   },
   progressBarText: {
     fontWeight: "bold"
-  }
+  },
+  thirdContainer: {
+    width: "100%",
+    flex: 1,
+    justifyContent: "space-around"
+  },
+  imageContainer: {
+    flex: 2,
+    alignItems: "center",
+  },
+  questionsContainer: {
+    width: "100%",
+  },
 });

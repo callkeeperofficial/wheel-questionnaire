@@ -65,16 +65,17 @@ export const AnsweringTheQuestions = (props: AnsweringTheQuestionsProps) => {
 
     return (
         <View flex key={currentQuestion.key} style={styles.container}>
-            <View flex-2 center>
+            <View flex-1 center>
                 <Text style={styles.questionText}>{currentQuestion.question}</Text>
             </View>
-            <View flex-8>
+            <View flex-3>
                 <FlatList
+                    contentContainerStyle={styles.flatListContentContainer}
                     style={styles.flatList}
                     data={currentQuestion.answers}
                     renderItem={renderQuestion}
                     extraData={answers}
-                    ItemSeparatorComponent={ () => <View marginT-10 /> }
+                    // ItemSeparatorComponent={ () => <View flex style={styles.answersSeparator} /> }
                     // ListHeaderComponent={ <Gap /> }
                 />
             </View>
@@ -86,12 +87,23 @@ const styles = StyleSheet.create({
     container: {
         justifyContent: "space-around"
     },
+    flatListContentContainer: {
+        // backgroundColor: "limegreen",
+        height: "100%",
+        justifyContent: "space-around",
+    },
     flatList: {
-        flex: 1
+        flex: 1,
+        // backgroundColor: "firebrick",
+        // borderWidth: 1,
+        // borderStyle: "dashed"
     },
     questionText: {
         fontSize: 16,
         fontWeight: "bold",
         textAlign: "center",
+    },
+    answersSeparator: {
+        // backgroundColor: "chartreuse"
     }
 });

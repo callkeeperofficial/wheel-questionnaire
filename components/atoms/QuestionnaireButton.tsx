@@ -54,7 +54,8 @@ const styles = StyleSheet.create({
     },
     buttonContainer: {
         borderRadius: 20,
-        overflow: "hidden"
+        overflow: "hidden",
+        // backgroundColor: "salmon"
     },
     answerText: {
         textAlign: "center",
