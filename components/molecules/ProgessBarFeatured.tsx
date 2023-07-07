@@ -3,18 +3,30 @@ import { ProgressBar, View } from "react-native-ui-lib";
 import { Gap } from "../atoms/Gap";
 import { StyleSheet , Text } from "react-native";
 
-export const ProgressBarFeatured = ({
-                                        text,
-                                        textRight,
-                                        barStyle,
-                                        progress,
-                                        containerStyle,
-                                        progressColor,
-                                        textStyle,
-                                        textBottomLeft,
-                                        textBottomRight
-}) => {
+type IProgressBarFeatured = {
+    text?: string,
+    textRight?: any,
+    barStyle?: object,
+    progress?: number,
+    containerStyle?: object,
+    progressColor?: string,
+    textStyle?: object,
+    textBottomLeft?: any,
+    textBottomRight?: any
+};
 
+export const ProgressBarFeatured = (props: IProgressBarFeatured) => {
+    const {
+        text,
+        textRight,
+        barStyle,
+        progress,
+        containerStyle,
+        progressColor,
+        textStyle,
+        textBottomLeft,
+        textBottomRight
+    } = props;
     const containerStyleInternal = { width: "100%", ...containerStyle, };
     const barStyleInternal = { width: "100%", height: 10, ...barStyle, };
 

@@ -18,11 +18,7 @@ export const QuestionnaireButton = (props: QuestionnaireButtonProps) => {
     // console.log("QuestionnaireButton \"" + iconComponent + "\"");
     return (
         <View flex style={[styles.buttonContainer, style]}>
-            <TouchableOpacity
-                center row paddingV-10 paddingH-15
-                onPress={onPress}
-                style={[styles.buttonTouchable, {borderWidth: borderWidth ? 1 : 0}]}
-            >
+            <TouchableOpacity onPress={onPress} style={[styles.buttonTouchable, {borderWidth: borderWidth ? 1 : 0}]}>
                 <View row center style={styles.button}>
                     { icon && <Image width={24} height={24} source={ icon } /> }
                     { iconComponent && iconComponent }
@@ -41,16 +37,22 @@ export const QuestionnaireButton = (props: QuestionnaireButtonProps) => {
 
 const styles = StyleSheet.create({
     button: {
-        width: "100%"
+        width: "100%",
+        minHeight: 40,
     },
     buttonTouchable: {
         borderRadius: 30,
         width: "100%",
         backgroundColor: "#D9D9D9",
-        justifyContent: "flex-start",
-        alignItems: "center",
+        // justifyContent: "flex-start",
+        // alignItems: "center",
         flex: 1,
         // paddingHorizontal: 20
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
+        paddingVertical: 10,
+        paddingHorizontal: 20,
     },
     buttonContainer: {
         borderRadius: 20,
@@ -61,5 +63,5 @@ const styles = StyleSheet.create({
         textAlign: "center",
         fontSize: 14,
         fontWeight: "bold",
-    }
+    },
 });
