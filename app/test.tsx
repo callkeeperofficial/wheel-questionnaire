@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, {useState, useContext, useEffect} from 'react';
 import { Image, StyleSheet } from 'react-native';
 import { View } from 'react-native-ui-lib';
 import { AnsweringTheQuestions } from '../components/organisms/AnsweringTheQuestions';
@@ -10,9 +10,12 @@ import { saveSegments } from "../components/utils/LocalWherhouse";
 import { questionImages } from "../components/utils/ImageUtility";
 import { ContainerTemplate } from "../components/molecules/ContainerTemplate";
 import { i18nQuestions } from "../components/molecules/i18n";
+import {useClearRoute} from "../components/hooks/useClearRoute";
 
 
 export default function ModalScreen() {
+  useClearRoute();
+
   const { answers, setSegments } = useContext(GlobalContext);
   const questions = i18nQuestions.t("questions") as UnitQuestion[];
   const [page, setPage] = useState(answers && questions.length > answers.length ? answers.length : 0);
@@ -39,6 +42,7 @@ export default function ModalScreen() {
     return newSegments;
   };
   const saveComputedSegments = (computeResults: Function) => () => saveSegments(computeResults());
+
 
   return (
       <ContainerTemplate>

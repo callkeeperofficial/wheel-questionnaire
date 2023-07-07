@@ -8,9 +8,11 @@ import { goToLiferadar, goToQrPage } from "../components/utils/StaticFunctions";
 import { GlobalContext } from "../components/contexts/GlobalContext";
 import { ContainerTemplate } from "../components/molecules/ContainerTemplate";
 import { i18n } from "../components/molecules/i18n";
+import {useClearRoute} from "../components/hooks/useClearRoute";
 
 
 export default function CongratulationsScreen() {
+  useClearRoute();
   const router = useRouter();
   const lottieContainer = useRef<HTMLDivElement>();
   const { segments } = useContext(GlobalContext);

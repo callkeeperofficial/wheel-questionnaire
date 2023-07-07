@@ -25,8 +25,6 @@ export default function WelcomeScreen() {
     changeLanguage(selectedItem.language);
   };
 
-    console.log(history);
-
     return (
       <ContainerTemplate>
           <View style={{ width: "100%", alignItems: "center" }}>

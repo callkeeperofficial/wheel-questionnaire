@@ -8,9 +8,12 @@ import { appLogo } from "../components/utils/ImageUtility";
 import { goBack, goToLiferadar } from "../components/utils/StaticFunctions";
 import { ContainerTemplate } from "../components/molecules/ContainerTemplate";
 import { i18n } from "../components/molecules/i18n";
+import {useClearRoute} from "../components/hooks/useClearRoute";
 
 
 export default function QrPage() {
+  useClearRoute();
+
   const router = useRouter();
   const { segments, setSegments } = useContext(GlobalContext);
   const goToApp = goToLiferadar(segments.join(""));
@@ -50,7 +53,7 @@ export default function QrPage() {
           </View>
           <View style={styles.marginTop20}/>
           <BlackLink textStyle={styles.linkTextStyle} onPress={goBack.bind(null, router)}>
-              {i18n.t("downloadAlready")}
+              {i18n.t("back")}
           </BlackLink>
       </ContainerTemplate>
   );
