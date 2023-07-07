@@ -1,0 +1,33 @@
+
+POST https://api.revenuecat.com/v1/subscribers/%24RCAnonymousID%3A6ffcef2ba49348cf94a76f391de9bba8/entitlements/full-content-access/promotional
+Authorization: Bearer sk_RvLTXRQAjmTdgskHSSrmlGKvCIRQp
+Accept: application/json
+Content-Type: application/json
+
+{"duration":"daily"}
+
+
+###
+POST https://api.revenuecat.com/v1/subscribers/$RCAnonymousID:6ffcef2ba49348cf94a76f391de9bba8/entitlements/full-content-access/revoke_promotionals HTTP/1.1
+Authorization: Bearer sk_RvLTXRQAjmTdgskHSSrmlGKvCIRQp
+Accept: application/json
+Content-Type: application/json
+
+###
+
+POST https://translate.api.cloud.yandex.net/translate/v2/languages
+Authorization: Bearer t1.9euelZqVnpGei5rLlpyNmY_JnMiOy-3rnpWal5adz5HKiZqLiZaXy8aJnp7l9PcGBEVb-e9hJ2i83fT3RjJCW_nvYSdovM3n9euelZqTypyZzJSNzZTGlsudy4zGie_8xeuelZqTypyZzJSNzZTGlsudy4zGiQ.xOocZdtbpMzFOm6ZdzGrztOBZ9a99fgZPT_iIA4jpXZ3fvjFUM3yUmhn7wKA75knt7heEQAMsyC2kezDYmtgCw
+Content-Type: application/json
+
+{
+  "folderId": "b1ggm2mf9ir256m4bfqe"
+}
+
+###
+
+POST https://us-central1-liferadar-f1ff4.cloudfunctions.net/featureTranslation?base=ru&iam=t1.9euelZqXyMubkomJksydj5KJncjGx-3rnpWal5adz5HKiZqLiZaXy8aJnp7l8_cAe19a-e9BanJ2_N3z90ApXVr570Fqcnb8zef1656VmpmMlJOMyJHPk46UzZ7KmYrN7_zF656VmpmMlJOMyJHPk46UzZ7KmYrN.Zwg_S3bqmdrUeOMns7d4gQLJHg__FQYzUfQ1yh6RUygQxoNTWaUslp659DJuSn67tbZlFQxDG9apqA1xkfm4Bg
+Content-Type: application/json
+
+< assets/data/i18n.json
+
+###

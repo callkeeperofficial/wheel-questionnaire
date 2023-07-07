@@ -12,13 +12,12 @@ import { UnitQuestion } from "../types/QuestionTypes";
 import { saveSegments } from "../components/utils/LocalWherhouse";
 import { questionImages } from "../components/utils/ImageUtility";
 import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
+import {i18nQuestions} from "../components/molecules/i18n";
 
 
 export default function ModalScreen() {
   const { answers, setSegments } = useContext(GlobalContext);
-  const i18n = new I18n({...wheelQuestions});
-  i18n.locale = getLocales()[0].languageCode;
-  const questions = i18n.t("questions") as UnitQuestion[];
+  const questions = i18nQuestions.t("questions") as UnitQuestion[];
   const [page, setPage] = useState(answers && questions.length > answers.length ? answers.length : 0);
 
   const leadingPage = page + 1;

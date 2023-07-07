@@ -1,61 +1,31 @@
-import {StyleSheet, TouchableOpacity, Image, Platform, Dimensions, FlatList} from 'react-native';
+import { StyleSheet, TouchableOpacity, Image, Dimensions } from 'react-native';
 import { Text, View } from '../components/Themed';
 import { useRouter } from "expo-router";
 import { megaCreator } from "../components/utils/ImageUtility";
 import { goToTest, openPrivacy } from "../components/utils/StaticFunctions";
-import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
-import {i18n} from "../components/molecules/i18n";
-import wheelQuestions from "../assets/data/wheel-questions.json"
+import { ContainerTemplate } from "../components/molecules/ContainerTemplate";
+import { changeLanguage, i18n} from "../components/molecules/i18n";
 import LanguagePicker, { ILanguagePicker } from "react-native-language-select";
-import {useState} from "react";
+import { useState } from "react";
+import { languagesForPicker } from "../components/utils/LanguagesForPicker";
 
-
-const data: ILanguagePicker[] = [
-  {
-    title: "Deutsch",
-    imageSource: require("../assets/images/flags/germany.png"),
-    language: "de",
-  },
-  {
-    title: "English",
-    imageSource: require("../assets/images/flags/america.png"),
-    language: "en",
-  },
-  {
-    title: "French",
-    imageSource: require("../assets/images/flags/france.png"),
-    language: "fr",
-  },
-  {
-    title: "Japanese",
-    imageSource: require("../assets/images/flags/japan.png"),
-    language: "jp",
-  },
-  {
-    title: "Portuguese",
-    imageSource: require("../assets/images/flags/portugal.png"),
-    language: "pt",
-  },
-  {
-    title: "Russian",
-    imageSource: require("../assets/images/flags/russia.png"),
-    language: "ru",
-  },
-  {
-    title: "Spanish",
-    imageSource: require("../assets/images/flags/spain.png"),
-    language: "es",
-  },
-];
 
 export default function WelcomeScreen() {
   const [langPick, setLangPick] = useState(false);
+  const data = languagesForPicker;
   const findLocaleIndex = (isoCode: string) => data.findIndex(l => l.language === isoCode);
   const [localeIndex, setLocaleIndex] = useState(findLocaleIndex(i18n.locale));
   const router = useRouter();
   const imageHeight = Dimensions.get('window').width * .8 - 100;
 
-  return (
+  const onPickLanguage = (selectedItem: ILanguagePicker) => {
+    setLangPick(false);
+    // console.log(selectedItem);
+    setLocaleIndex(findLocaleIndex(selectedItem.language as string));
+    changeLanguage(selectedItem.language);
+  };
+
+    return (
       <ContainerTemplate>
           <View style={{ width: "100%", alignItems: "center" }}>
             <Image style={[styles.image, { height: imageHeight }]} source={megaCreator} resizeMode={"contain"}/>
@@ -73,7 +43,7 @@ export default function WelcomeScreen() {
           <TouchableOpacity onPress={() => setLangPick(!langPick)}>
             <View style={{ flexDirection: "row", alignItems: "center" }}>
               <Image style={{width: 24, height: 24}} source={data[localeIndex].imageSource}/>
-              <Text style={{ paddingLeft: 10}}>{data[localeIndex].language.toLocaleUpperCase()}</Text>
+              <Text style={{ paddingLeft: 10}}>{data[localeIndex].language?.toLocaleUpperCase()}</Text>
             </View>
           </TouchableOpacity>
           <View>
@@ -88,14 +58,9 @@ export default function WelcomeScreen() {
                 // containerWidth={300}
                 flatListStyle={{width: 300, height: "100%"}}
                 languageItemProps={{width: 300}}
-
                 initialIndex={localeIndex}
                 data={data}
-                onSelect={(selectedItem: ILanguagePicker) => {
-                  setLangPick(false);
-                  console.log(selectedItem);
-                  setLocaleIndex(findLocaleIndex(selectedItem.language as string))
-                }}
+                onSelect={onPickLanguage}
             />
           </View>
         </View>

@@ -7,6 +7,7 @@ import congratulationConfettiModule from "../assets/images/lottie/congratulation
 import { goToLiferadar, goToQrPage } from "../components/utils/StaticFunctions";
 import { GlobalContext } from "../components/contexts/GlobalContext";
 import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
+import {i18n} from "../components/molecules/i18n";
 
 
 export default function CongratulationsScreen() {
@@ -39,21 +40,23 @@ export default function CongratulationsScreen() {
           heroElement={<div style={styles.lottieContainer} ref={lottieContainer as MutableRefObject<HTMLDivElement>}/>}
       >
         <View style={styles.contentContainer}>
-          <Text style={styles.title}>Поздравляем!</Text>
+          <Text style={styles.title}>{i18n.t("congratulations")}</Text>
           <View style={styles.marginTop20}/>
-          <Text style={styles.description}>Вы заполнили колесо баланса!</Text>
+          <Text style={styles.description}>{i18n.t("nowYouFillWheel")}</Text>
           <View style={styles.marginTop20}/>
-          <Text style={styles.description}>Смотрите результаты и рекомендации в приложении Liferadar и узнайте в каких сферах можно черпать ресурс, а над какими стоит поработать.</Text>
+          <Text style={styles.description}>{i18n.t("congratulationDescription")}</Text>
           <View style={styles.marginTop20}/>
           <View style={styles.takeTestButton}>
             <TouchableOpacity onPress={goToLiferadarLocal}>
                 <View style={styles.button}>
-                  <Text style={styles.buttonText}>Скачать</Text>
+                  <Text style={styles.buttonText}>{i18n.t("download")}</Text>
                 </View>
             </TouchableOpacity>
           </View>
           <View style={styles.marginTop20}/>
-          <BlackLink textStyle={styles.linkTextStyle} onPress={goToQrPage.bind(null, router)}>Я уже скачал</BlackLink>
+          <BlackLink textStyle={styles.linkTextStyle} onPress={goToQrPage.bind(null, router)}>
+            {i18n.t("downloadAlready")}
+          </BlackLink>
         </View>
       </ContainerTemplate>
   );

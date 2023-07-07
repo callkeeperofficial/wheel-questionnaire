@@ -5,12 +5,12 @@ import { Pikachu } from "./Pikachu";
 
 
 type BlackLinkProps = {
-    onPress: Function,
-    children: any,
-    style: object,
-    chevron: boolean,
-    chevronRight: boolean,
-    textStyle: object,
+    onPress?: Function,
+    children?: any,
+    style?: object,
+    chevron?: boolean,
+    chevronRight?: boolean,
+    textStyle?: object,
 }
 
 export const BlackLink = (props: BlackLinkProps) => {

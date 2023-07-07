@@ -7,6 +7,7 @@ import { loadSegments } from "../components/utils/LocalWherhouse";
 import { appLogo } from "../components/utils/ImageUtility";
 import { goBack, goToLiferadar } from "../components/utils/StaticFunctions";
 import {ContainerTemplate} from "../components/molecules/ContainerTemplate";
+import {i18n} from "../components/molecules/i18n";
 
 
 export default function QrPage() {
@@ -27,9 +28,9 @@ export default function QrPage() {
             <Image style={styles.image} source={appLogo}/>
           </TouchableOpacity>
           <View style={styles.marginTop20}/>
-          <Text style={styles.title}>Откройте приложение Liferadar</Text>
+          <Text style={styles.title}>{i18n.t("openLiferadar")}</Text>
           <View style={styles.marginTop20}/>
-          <Text style={styles.description}>И введите код в раделе Колесо Баланса:</Text>
+          <Text style={styles.description}>{i18n.t("enterCode")}</Text>
           <View style={styles.marginTop20}/>
           <TouchableOpacity onPress={goToApp}>
               <View style={styles.numbersTextView}>
@@ -38,17 +39,19 @@ export default function QrPage() {
               </View>
           </TouchableOpacity>
           <View style={styles.marginTop20}/>
-          <Text style={styles.description}>Колесо Жизненного Баланса и результаты теста уже ждут вас в приложении Liferadar 🙏🏻</Text>
+          <Text style={styles.description}>{i18n.t("wheelAwaitsYou")} 🙏🏻</Text>
           <View style={styles.marginTop20}/>
           <View style={styles.takeTestButton}>
             <TouchableOpacity onPress={goToLiferadar(segments.join(""))}>
               <View style={styles.button}>
-                <Text style={styles.buttonText}>Скачать</Text>
+                <Text style={styles.buttonText}>{i18n.t("download")}</Text>
               </View>
             </TouchableOpacity>
           </View>
           <View style={styles.marginTop20}/>
-          <BlackLink textStyle={styles.linkTextStyle} onPress={goBack.bind(null, router)}>Вернуться назад</BlackLink>
+          <BlackLink textStyle={styles.linkTextStyle} onPress={goBack.bind(null, router)}>
+              {i18n.t("downloadAlready")}
+          </BlackLink>
       </ContainerTemplate>
   );
 }
