@@ -45,7 +45,6 @@ export default function ModalScreen() {
         <View style={styles.thirdContainer}>
           <View style={styles.blackLinkContainer}>
             <BlackLink style={{ opacity: page ? 1 : 0 }} onPress={previousPage} chevron>{" "}</BlackLink>
-            {/*<BlackLink style={{ opacity: goBackOrNot ? 1 : 0 }} onPress={previousPage} chevron>{goBackOrNot}</BlackLink>*/}
             <ProgressBarFeatured
                 textStyle={styles.progressBarText}
                 textBottomLeft={getPageCounter()}
