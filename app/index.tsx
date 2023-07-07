@@ -8,9 +8,12 @@ import { changeLanguage, i18n} from "../components/molecules/i18n";
 import LanguagePicker, { ILanguagePicker } from "react-native-language-select";
 import { useState } from "react";
 import { languagesForPicker } from "../components/utils/LanguagesForPicker";
+import { usePageViewFacebook } from "../components/hooks/useFacebookPixel";
 
 
 export default function WelcomeScreen() {
+  usePageViewFacebook();
+
   const [langPick, setLangPick] = useState(false);
   const data = languagesForPicker;
   const findLocaleIndex = (isoCode: string) => data.findIndex(l => l.language === isoCode);

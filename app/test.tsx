@@ -10,10 +10,12 @@ import { saveSegments } from "../components/utils/LocalWherhouse";
 import { questionImages } from "../components/utils/ImageUtility";
 import { ContainerTemplate } from "../components/molecules/ContainerTemplate";
 import { i18nQuestions } from "../components/molecules/i18n";
-import {useClearRoute} from "../components/hooks/useClearRoute";
+import { useClearRoute } from "../components/hooks/useClearRoute";
+import { usePageViewFacebook } from "../components/hooks/useFacebookPixel";
 
 
 export default function ModalScreen() {
+  usePageViewFacebook();
   useClearRoute();
 
   const { answers, setSegments } = useContext(GlobalContext);

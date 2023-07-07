@@ -8,11 +8,15 @@ import { goToLiferadar, goToQrPage } from "../components/utils/StaticFunctions";
 import { GlobalContext } from "../components/contexts/GlobalContext";
 import { ContainerTemplate } from "../components/molecules/ContainerTemplate";
 import { i18n } from "../components/molecules/i18n";
-import {useClearRoute} from "../components/hooks/useClearRoute";
+import { useClearRoute } from "../components/hooks/useClearRoute";
+import { usePageViewFacebook, useViewContentFacebook } from "../components/hooks/useFacebookPixel";
 
 
 export default function CongratulationsScreen() {
+  usePageViewFacebook();
+  useViewContentFacebook();
   useClearRoute();
+
   const router = useRouter();
   const lottieContainer = useRef<HTMLDivElement>();
   const { segments } = useContext(GlobalContext);

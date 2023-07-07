@@ -8,10 +8,12 @@ import { appLogo } from "../components/utils/ImageUtility";
 import { goBack, goToLiferadar } from "../components/utils/StaticFunctions";
 import { ContainerTemplate } from "../components/molecules/ContainerTemplate";
 import { i18n } from "../components/molecules/i18n";
-import {useClearRoute} from "../components/hooks/useClearRoute";
+import { useClearRoute } from "../components/hooks/useClearRoute";
+import { usePageViewFacebook } from "../components/hooks/useFacebookPixel";
 
 
 export default function QrPage() {
+  usePageViewFacebook();
   useClearRoute();
 
   const router = useRouter();

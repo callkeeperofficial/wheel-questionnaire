@@ -5,6 +5,8 @@ import { SplashScreen, Stack } from 'expo-router';
 import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
 import { GlobalContextWrapper} from "../components/contexts/GlobalContext";
+import * as React from "react";
+import { useFacebookPixel } from '../components/hooks/useFacebookPixel';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -18,6 +20,7 @@ export const unstable_settings = {
 };
 
 export default function RootLayout() {
+  useFacebookPixel();
   const [loaded, error] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
     ...FontAwesome.font,
