@@ -38,21 +38,23 @@ export default function CongratulationsScreen() {
       <ContainerTemplate
           heroElement={<div style={styles.lottieContainer} ref={lottieContainer as MutableRefObject<HTMLDivElement>}/>}
       >
-        <Text style={styles.title}>Поздравляем!</Text>
-        <View style={styles.marginTop20}/>
-        <Text style={styles.description}>Вы заполнили колесо баланса!</Text>
-        <View style={styles.marginTop20}/>
-        <Text style={styles.description}>Смотрите результаты и рекомендации в приложении Liferadar и узнайте в каких сферах можно черпать ресурс, а над какими стоит поработать.</Text>
-        <View style={styles.marginTop20}/>
-        <View style={styles.takeTestButton}>
-          <TouchableOpacity onPress={goToLiferadarLocal}>
-              <View style={styles.button}>
-                <Text style={styles.buttonText}>Скачать</Text>
-              </View>
-          </TouchableOpacity>
+        <View style={styles.contentContainer}>
+          <Text style={styles.title}>Поздравляем!</Text>
+          <View style={styles.marginTop20}/>
+          <Text style={styles.description}>Вы заполнили колесо баланса!</Text>
+          <View style={styles.marginTop20}/>
+          <Text style={styles.description}>Смотрите результаты и рекомендации в приложении Liferadar и узнайте в каких сферах можно черпать ресурс, а над какими стоит поработать.</Text>
+          <View style={styles.marginTop20}/>
+          <View style={styles.takeTestButton}>
+            <TouchableOpacity onPress={goToLiferadarLocal}>
+                <View style={styles.button}>
+                  <Text style={styles.buttonText}>Скачать</Text>
+                </View>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.marginTop20}/>
+          <BlackLink textStyle={styles.linkTextStyle} onPress={goToQrPage.bind(null, router)}>Я уже скачал</BlackLink>
         </View>
-        <View style={styles.marginTop20}/>
-        <BlackLink textStyle={styles.linkTextStyle} onPress={goToQrPage.bind(null, router)}>Я уже скачал</BlackLink>
       </ContainerTemplate>
   );
 }
@@ -91,10 +93,18 @@ const styles = StyleSheet.create({
     width: "100%"
   },
   lottieContainer: {
+    position: "relative",
     left: 0,
-    right: 0,
+    top: -50,
+    // borderWidth: 1,
+    // borderStyle: "dashed",
   },
   marginTop20: {
     marginTop: 20,
+  },
+  contentContainer: {
+    position: "relative",
+    top: -100,
+    alignItems: "center",
   }
 });

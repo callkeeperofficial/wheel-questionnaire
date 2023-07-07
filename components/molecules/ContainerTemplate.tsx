@@ -29,6 +29,8 @@ const styles = StyleSheet.create({
         maxWidth: 500,
         backgroundColor: "white",
         // borderRadius: 20,
+        // borderWidth: 1,
+        // borderStyle: "dashed",
     },
     innerContainer: {
         flex: 1,
@@ -37,5 +39,6 @@ const styles = StyleSheet.create({
         paddingHorizontal: 25,
         paddingVertical: 10,
         // borderRadius: 20,
+        // borderWidth: 1,
     },
 });

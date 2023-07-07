@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
         flex: 1
     },
     questionText: {
-        fontSize: 18,
+        fontSize: 16,
         fontWeight: "bold",
         textAlign: "center",
     }
