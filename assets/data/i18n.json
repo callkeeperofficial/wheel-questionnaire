@@ -12,7 +12,8 @@
     "openLiferadar": "Откройте приложение Liferadar",
     "enterCode": "И введите код в раделе Колесо Баланса:",
     "wheelAwaitsYou": "Колесо Жизненного Баланса и результаты теста уже ждут вас в приложении Liferadar",
-    "back": "Назад"
+    "back": "Назад",
+    "openApp": "Открыть Liferadar"
   },
   "en": {
     "welcome": "Welcome!",
@@ -27,7 +28,8 @@
     "openLiferadar": "Open the Liferadar app",
     "enterCode": "And enter the code in the Balance Wheel:",
     "wheelAwaitsYou": "The Wheel of Life Balance and the test results are already waiting for you in the Liferadar app",
-    "back": "Back"
+    "back": "Back",
+    "openApp": "Open Liferadar"
   },
   "de": {
     "welcome": "Willkommen!",
@@ -42,7 +44,8 @@
     "openLiferadar": "Öffnen Sie die Liferadar-App",
     "enterCode": "Und geben Sie den Code in das Balance Rad ein:",
     "wheelAwaitsYou": "Das Life Balance Wheel und die Testergebnisse warten bereits auf Sie in der Liferadar App",
-    "back": "Zurück"
+    "back": "Zurück",
+    "openApp": "Liferadar öffnen"
   },
   "fr": {
     "welcome": "Bienvenue !",
@@ -57,7 +60,8 @@
     "openLiferadar": "Ouvrez l'application Liferadar",
     "enterCode": "Et entrez le code dans la Roue d'équilibre de radel:",
     "wheelAwaitsYou": "La roue de L'équilibre de la Vie et les résultats du test vous attendent déjà dans l'application Liferadar",
-    "back": "En arrière"
+    "back": "En arrière",
+    "openApp": "Ouvrir Liferadar"
   },
   "jp": {
     "welcome": "ようこそ！",
@@ -72,7 +76,8 @@
     "openLiferadar": "Liferadarアプリを開く",
     "enterCode": "そして、バランスホイールにコードを入力します:",
     "wheelAwaitsYou": "ライフバランスの輪とテスト結果は、すでにLiferadarアプリであなたを待っています",
-    "back": "戻る"
+    "back": "戻る",
+    "openApp": "開いたLiferadar"
   },
   "pt": {
     "welcome": "Bem-vindo!",
@@ -87,7 +92,8 @@
     "openLiferadar": "Abra o aplicativo Liferadar",
     "enterCode": "E insira o código na roda de equilíbrio de Radel:",
     "wheelAwaitsYou": "A roda do equilíbrio vital e os resultados do teste já estão esperando por você no aplicativo Liferadar",
-    "back": "Atrás"
+    "back": "Atrás",
+    "openApp": "Abrir O Liferadar"
   },
   "es": {
     "welcome": "¡Bienvenido!",
@@ -102,6 +108,7 @@
     "openLiferadar": "Abra la aplicación Liferadar",
     "enterCode": "E introduzca el código en la rueda de equilibrio Radel:",
     "wheelAwaitsYou": "La rueda de balance de Vida y los resultados de la prueba ya están esperando en la aplicación Liferadar",
-    "back": "Atrás"
+    "back": "Atrás",
+    "openApp": "Abrir Liferadar"
   }
 }

@@ -49,7 +49,7 @@ export default function QrPage() {
           <View style={styles.takeTestButton}>
             <TouchableOpacity onPress={goToLiferadar(segments.join(""))}>
               <View style={styles.button}>
-                <Text style={styles.buttonText}>{i18n.t("download")}</Text>
+                <Text style={styles.buttonText}>{i18n.t("openApp")}</Text>
               </View>
             </TouchableOpacity>
           </View>

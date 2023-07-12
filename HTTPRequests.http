@@ -25,7 +25,7 @@ Content-Type: application/json
 
 ###
 
-POST https://us-central1-liferadar-f1ff4.cloudfunctions.net/featureTranslation?base=ru&iam=t1.9euelZqXyMubkomJksydj5KJncjGx-3rnpWal5adz5HKiZqLiZaXy8aJnp7l8_cAe19a-e9BanJ2_N3z90ApXVr570Fqcnb8zef1656VmpmMlJOMyJHPk46UzZ7KmYrN7_zF656VmpmMlJOMyJHPk46UzZ7KmYrN.Zwg_S3bqmdrUeOMns7d4gQLJHg__FQYzUfQ1yh6RUygQxoNTWaUslp659DJuSn67tbZlFQxDG9apqA1xkfm4Bg
+POST https://us-central1-liferadar-f1ff4.cloudfunctions.net/featureTranslation?base=ru&iam=t1.9euelZrIi4zLjpHOjYuNj42TlJWcjO3rnpWal5adz5HKiZqLiZaXy8aJnp7l8_dPSUVa-e95BnUZ_t3z9w94Qlr573kGdRn-zef1656Vmp6elZbGlMvPio-Ym4vOmZ6K7_zF656Vmp6elZbGlMvPio-Ym4vOmZ6K.d_QcElReGDSY4TkxseKucO6LNNZiIIXbnVXIWVAyXVQH-j1l3skvxVmpN24ZCYJEV8xaGIPOsHhzhPnbxPkLAQ
 Content-Type: application/json
 
 < assets/data/i18n.json
