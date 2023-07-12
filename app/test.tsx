@@ -29,7 +29,7 @@ export default function ModalScreen() {
 
   const computeResults = () => {
     // const newSegments = Array(segments.length).fill(0);
-    const newSegments = Array(questions.reduce((c, v) => v.category + 1 > c ? v.category + 1 : c, 0)).fill(0);
+    let newSegments = Array(questions.reduce((c, v) => v.category + 1 > c ? v.category + 1 : c, 0)).fill(0);
     // console.log("computeResults ", segments.length, newSegments);
     answers.forEach((v, k) => {
       if (questions[k] && questions[k].category !== undefined) {
@@ -38,6 +38,7 @@ export default function ModalScreen() {
         newSegments[category] += ((questions[k].answers.length - 1) - answerKeys[0]);
       }
     });
+    newSegments = newSegments.map(s => Math.min(Math.max(1, s), 9));
     // console.log("computeResults " + answers.length + " " + newSegments);
     setSegments(newSegments);
 
