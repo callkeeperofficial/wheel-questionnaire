@@ -5,7 +5,7 @@ import React, { useContext, useEffect } from "react";
 import { GlobalContext } from "../components/contexts/GlobalContext";
 import { loadSegments } from "../components/utils/LocalWherhouse";
 import { appLogo } from "../components/utils/ImageUtility";
-import { goBack, goToLiferadar } from "../components/utils/StaticFunctions";
+import { goToFinish, goToLiferadar } from "../components/utils/StaticFunctions";
 import { ContainerTemplate } from "../components/molecules/ContainerTemplate";
 import { i18n } from "../components/molecules/i18n";
 import { useClearRoute } from "../components/hooks/useClearRoute";
@@ -54,7 +54,7 @@ export default function QrPage() {
             </TouchableOpacity>
           </View>
           <View style={styles.marginTop20}/>
-          <BlackLink textStyle={styles.linkTextStyle} onPress={goBack.bind(null, router)}>
+          <BlackLink textStyle={styles.linkTextStyle} onPress={goToFinish.bind(null, router)}>
               {i18n.t("back")}
           </BlackLink>
       </ContainerTemplate>
