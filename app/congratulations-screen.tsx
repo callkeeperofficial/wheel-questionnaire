@@ -13,6 +13,7 @@ import { usePageViewFacebook, useViewContentFacebook } from "../components/hooks
 
 
 export default function CongratulationsScreen() {
+  // console.log("CongratulationsScreen", "rerender");
   usePageViewFacebook();
   useViewContentFacebook();
   useClearRoute();

@@ -32,7 +32,7 @@ export const useFacebookPixel = () => {
 export const useViewContentFacebook = () => {
     if ("fbq" in window) {
         useEffect(() => {
-            console.log("useViewContentFacebook", "fbq('track', 'ViewContent')");
+            // console.log("useViewContentFacebook", "fbq('track', 'ViewContent')");
             // @ts-ignore
             fbq('track', 'ViewContent');
         }, []);
@@ -42,7 +42,7 @@ export const useViewContentFacebook = () => {
 export const usePageViewFacebook = () => {
     if ("fbq" in window) {
         useEffect(() => {
-            console.log("useViewContentFacebook", "fbq('track', 'PageView')");
+            // console.log("useViewContentFacebook", "fbq('track', 'PageView')");
             // @ts-ignore
             fbq('track', 'PageView');
         }, []);
