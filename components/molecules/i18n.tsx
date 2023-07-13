@@ -2,8 +2,8 @@ import {I18n} from "i18n-js";
 import translation from "../../assets/data/i18n.json";
 import {getLocales} from "expo-localization";
 import wheelQuestions from "../../assets/data/wheel-questions.json";
-
-console.log("i18n.js", getLocales()[0].languageCode);
+//
+// console.log("i18n.js", getLocales()[0].languageCode);
 
 const knownLocale = Object.keys(translation).find(t => t === getLocales()[0].languageCode);
 const locale = knownLocale || "en";

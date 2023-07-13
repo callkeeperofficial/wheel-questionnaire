@@ -19,7 +19,7 @@ export default function WelcomeScreen() {
   const findLocaleIndex = (isoCode: string) => data.findIndex(l => l.language === isoCode);
 
   const [localeIndex, setLocaleIndex] = useState(findLocaleIndex(i18n.locale));
-  const localeData = "localeIndex" in data ? data[localeIndex] : null;
+  const localeData = localeIndex in data ? data[localeIndex] : null;
   const router = useRouter();
   const imageHeight = Dimensions.get('window').width * .8 - 100;
 
