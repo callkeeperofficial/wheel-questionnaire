@@ -43,12 +43,12 @@ export default function WelcomeScreen() {
             </TouchableOpacity>
           </View>
         <View style={styles.footer}>
-          {/*<TouchableOpacity onPress={() => setLangPick(!langPick)}>*/}
-          {/*  <View style={{ flexDirection: "row", alignItems: "center" }}>*/}
-          {/*    <Image style={{width: 24, height: 24}} source={data[localeIndex].imageSource}/>*/}
-          {/*    <Text style={{ paddingLeft: 10}}>{data[localeIndex].language?.toLocaleUpperCase()}</Text>*/}
-          {/*  </View>*/}
-          {/*</TouchableOpacity>*/}
+          <TouchableOpacity onPress={() => setLangPick(!langPick)}>
+            <View style={{ flexDirection: "row", alignItems: "center" }}>
+              <Image style={{width: 24, height: 24}} source={data[localeIndex].imageSource}/>
+              <Text style={{ paddingLeft: 10}}>{data[localeIndex].language?.toLocaleUpperCase()}</Text>
+            </View>
+          </TouchableOpacity>
           <View>
             <TouchableOpacity onPress={openPrivacy}>
               <Text>{i18n.t("privacyPolicy")}</Text>
