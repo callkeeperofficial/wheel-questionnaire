@@ -20,7 +20,7 @@ export const unstable_settings = {
 };
 
 export default function RootLayout() {
-  useFacebookPixel();
+  // useFacebookPixel();
   const [loaded, error] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
     ...FontAwesome.font,
