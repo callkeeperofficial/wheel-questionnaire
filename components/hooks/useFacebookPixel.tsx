@@ -30,15 +30,19 @@ export const useFacebookPixel = () => {
 };
 
 export const useViewContentFacebook = () => {
-    useEffect(() => {
-    // @ts-ignore
-        fbq('track', 'ViewContent');
-    }, []);
+    if ("fbq" in window) {
+        useEffect(() => {
+            // @ts-ignore
+            fbq('track', 'ViewContent');
+        }, []);
+    }
 };
 
 export const usePageViewFacebook = () => {
-    useEffect(() => {
-    // @ts-ignore
-        fbq('track', 'PageView');
-    }, []);
+    if ("fbq" in window) {
+        useEffect(() => {
+            // @ts-ignore
+            fbq('track', 'PageView');
+        }, []);
+    }
 };
