@@ -17,7 +17,9 @@ export default function WelcomeScreen() {
   const [langPick, setLangPick] = useState(false);
   const data = languagesForPicker;
   const findLocaleIndex = (isoCode: string) => data.findIndex(l => l.language === isoCode);
+
   const [localeIndex, setLocaleIndex] = useState(findLocaleIndex(i18n.locale));
+  const localeData = "localeIndex" in data ? data[localeIndex] : null;
   const router = useRouter();
   const imageHeight = Dimensions.get('window').width * .8 - 100;
 
@@ -45,8 +47,8 @@ export default function WelcomeScreen() {
         <View style={styles.footer}>
           <TouchableOpacity onPress={() => setLangPick(!langPick)}>
             <View style={{ flexDirection: "row", alignItems: "center" }}>
-              <Image style={{width: 24, height: 24}} source={data[localeIndex].imageSource}/>
-              <Text style={{ paddingLeft: 10}}>{data[localeIndex].language?.toLocaleUpperCase()}</Text>
+              <Image style={{width: 24, height: 24}} source={localeData && localeData.imageSource}/>
+              <Text style={{ paddingLeft: 10}}>{localeData && localeData.language?.toLocaleUpperCase()}</Text>
             </View>
           </TouchableOpacity>
           <View>
