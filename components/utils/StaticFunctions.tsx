@@ -1,7 +1,13 @@
 import { Router } from "../../types/RouterType";
+import { oneLink } from "./SmartOneLink";
 
-export const goToLiferadar = (deepLinkValue: string) => () =>
-    window.open("https://liferadar.onelink.me/IwFG/n7yuoky4?deep_link_value=" + deepLinkValue, "blank");
+// console.log("StaticFunction", oneLink);
+
+export const goToLiferadar = (deepLinkValue: string) => () => {
+    const link = oneLink.clickURL + "&deep_link_value=" + deepLinkValue;
+    // console.log("goToLiferadar", link);
+    return window.open(link, "blank");
+};
 
 export const openPrivacy = () => window.open("https://liferadar.app/privacy", "blank");
 
